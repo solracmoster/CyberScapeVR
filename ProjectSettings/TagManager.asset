@@ -7,6 +7,9 @@ TagManager:
   - Enemy
   - player
   - Bat
+  - End1
+  - Key
+  - Door
   layers:
   - Default
   - TransparentFX
