@@ -223,8 +223,8 @@ public class OVRPlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
            Jump();
 
-       // if (Input.GetButtonDown(Button.One))
-          //  Jump();
+        if (OVRInput.Get(OVRInput.Button.One))
+            Jump();
     }
 
 
