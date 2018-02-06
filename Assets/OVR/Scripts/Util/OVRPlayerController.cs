@@ -152,6 +152,10 @@ public class OVRPlayerController : MonoBehaviour
 	private float buttonRotation = 0f;
 	private bool ReadyToSnapTurn; // Set to true when a snap turn has occurred, code requires one frame of centered thumbstick to enable another snap turn.
 
+
+
+
+
 	void Start()
 	{
 		// Add eye-depth as a camera offset from the player controller
@@ -201,6 +205,12 @@ public class OVRPlayerController : MonoBehaviour
 		}
 	}
 
+
+
+
+
+    //IMportant!
+
 	void Update()
 	{
 		//Use keys to ratchet rotation
@@ -209,7 +219,17 @@ public class OVRPlayerController : MonoBehaviour
 
 		if (Input.GetKeyDown(KeyCode.E))
 			buttonRotation += RotationRatchet;
-	}
+
+        if (Input.GetKeyDown(KeyCode.Space))
+           Jump();
+
+       // if (Input.GetButtonDown(Button.One))
+          //  Jump();
+    }
+
+
+
+
 
 	protected virtual void UpdateController()
 	{
@@ -482,6 +502,10 @@ public class OVRPlayerController : MonoBehaviour
 		}
 	}
 
+
+
+
+
 	/// <summary>
 	/// Jump! Must be enabled manually.
 	/// </summary>
@@ -494,6 +518,11 @@ public class OVRPlayerController : MonoBehaviour
 
 		return true;
 	}
+
+
+
+
+
 
 	/// <summary>
 	/// Stop this instance.
