@@ -13,6 +13,12 @@ TagManager:
   - Blaster
   - Cube
   - END
+  - KeyP
+  - DoorP
+  - KeyO
+  - DoorO
+  - KeyG
+  - DoorG
   layers:
   - Default
   - TransparentFX

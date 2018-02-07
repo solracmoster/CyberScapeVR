@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class KeyHealth : MonoBehaviour {
+public class DoorHealth2 : MonoBehaviour {
 
 	public int health = 1;
 
@@ -24,7 +24,7 @@ public class KeyHealth : MonoBehaviour {
 
 
 	void OnCollisionEnter(Collision collision){
-		if (collision.gameObject.name == "Door"){
+		if (collision.gameObject.tag == "KeyO"){
 			//when the player runs into an enemy reduce the players health
 			health--;
            

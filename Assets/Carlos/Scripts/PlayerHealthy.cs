@@ -21,6 +21,7 @@ public class PlayerHealthy : MonoBehaviour {
     }
 			void OnCollisionEnter (Collision collision)
 	{
+
 		if (collision.gameObject.tag == "Enemy") {
 			PlayerPrefs.SetInt ("Health", PlayerPrefs.GetInt ("Health") - 1);
             Soundmanagerscript.PlaySound("PHurt");
