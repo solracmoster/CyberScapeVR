@@ -25,9 +25,13 @@ public class EnemyHealth2 : MonoBehaviour {
 
 	void OnCollisionEnter(Collision collision){
 		if (collision.gameObject.name == "Bat"){
-			//when the player runs into an enemy reduce the players health
+			
 			health--;
            
         }
+
+
 	}
+
+
 }

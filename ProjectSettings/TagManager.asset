@@ -12,6 +12,7 @@ TagManager:
   - Door
   - Blaster
   - Cube
+  - END
   layers:
   - Default
   - TransparentFX

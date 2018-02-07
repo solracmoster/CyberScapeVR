@@ -31,6 +31,12 @@ public class PlayerHealthy : MonoBehaviour {
 			PlayerPrefs.SetInt ("Health", PlayerPrefs.GetInt ("Health") - 1);
             //Soundmanagerscript.PlaySound("Hurt");
         }
-	}
+
+        if (collision.gameObject.tag == "END")
+        {
+            Scene scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene("Floor1");
+        }
+    }
    
 }
