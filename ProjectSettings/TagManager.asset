@@ -19,6 +19,7 @@ TagManager:
   - DoorO
   - KeyG
   - DoorG
+  - Glove
   layers:
   - Default
   - TransparentFX

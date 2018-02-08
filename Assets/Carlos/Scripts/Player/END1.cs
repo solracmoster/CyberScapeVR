@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
-public class PlayerHealthy : MonoBehaviour {
+public class END1: MonoBehaviour {
 
 	// Use this for initialization
-	public int health = 10;
+	public int health = 1;
 	void Start () {
 		PlayerPrefs.SetInt("Health", health);
 	}
@@ -22,22 +22,12 @@ public class PlayerHealthy : MonoBehaviour {
 			void OnCollisionEnter (Collision collision)
 	{
 
-		if (collision.gameObject.tag == "Enemy") {
+		if (collision.gameObject.tag == "Player") {
 			PlayerPrefs.SetInt ("Health", PlayerPrefs.GetInt ("Health") - 1);
-            Soundmanagerscript.PlaySound("PHurt");
+           // Soundmanagerscript.PlaySound("PHurt");
         }
 
 		
-		if (collision.gameObject.tag == "lazer") {
-			PlayerPrefs.SetInt ("Health", PlayerPrefs.GetInt ("Health") - 1);
-            //Soundmanagerscript.PlaySound("Hurt");
-        }
-
-        if (collision.gameObject.tag == "END")
-        {
-            Scene scene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene("Floor1");
-        }
     }
    
 }
