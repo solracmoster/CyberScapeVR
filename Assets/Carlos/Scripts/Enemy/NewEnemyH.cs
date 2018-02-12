@@ -28,7 +28,7 @@ public class NewEnemyH : MonoBehaviour {
 		
 		if (collision.gameObject.tag == "Glove") {
 			PlayerPrefs.SetInt ("Healthe", PlayerPrefs.GetInt ("Healthe") - 2);
-            //Soundmanagerscript.PlaySound("Hurt");
+            Soundmanagerscript.PlaySound("punch");
         }
 
         
