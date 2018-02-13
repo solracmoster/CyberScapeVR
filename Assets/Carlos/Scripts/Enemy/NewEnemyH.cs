@@ -4,7 +4,7 @@ using System.Collections;
 public class NewEnemyH : MonoBehaviour {
 
 	// Use this for initialization
-	public int healthe = 15;
+	private int healthe = 15;
 	void Start () {
 		PlayerPrefs.SetInt("Healthe", healthe);
 	}
