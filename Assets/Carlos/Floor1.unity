@@ -26892,6 +26892,7 @@ GameObject:
   - component: {fileID: 1263011407}
   - component: {fileID: 1263011406}
   - component: {fileID: 1263011410}
+  - component: {fileID: 1263011411}
   m_Layer: 0
   m_Name: END
   m_TagString: END
@@ -26976,6 +26977,18 @@ Halo:
     serializedVersion: 2
     rgba: 4294967295
   m_Size: 20
+--- !u!114 &1263011411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1263011405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed39a563e4448624191066e04bf55a9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
 --- !u!1 &1266500322
 GameObject:
   m_ObjectHideFlags: 0

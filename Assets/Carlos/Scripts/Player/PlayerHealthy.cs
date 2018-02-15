@@ -5,9 +5,10 @@ public class PlayerHealthy : MonoBehaviour {
 
 	// Use this for initialization
 	public int health = 3;
+ 
 	void Start () {
 		PlayerPrefs.SetInt("Health", health);
-        
+       
 	}
     
 
@@ -23,23 +24,13 @@ public class PlayerHealthy : MonoBehaviour {
 
         }
 
-        if (PlayerPrefs.GetInt("Health") >= 100)
-        {
-            //reload the scene
-            Scene scene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene("Floor1");
-
-        }
+       
     }
 
 
 			void OnCollisionEnter (Collision collision)
 	{
-        if (collision.gameObject.tag == "END")
-        {
-            PlayerPrefs.SetInt("Health", PlayerPrefs.GetInt("Health") + 200);
-            //Soundmanagerscript.PlaySound("PHurt");
-        }
+       
 
         if (collision.gameObject.tag == "Enemy") {
 			PlayerPrefs.SetInt ("Health", PlayerPrefs.GetInt ("Health") - 1);
