@@ -26,7 +26,7 @@ public class Daend1 : MonoBehaviour {
 
 
     void OnTriggerEnter(Collider other) {
-		if (other.gameObject.CompareTag ("player")) {
+		if (other.gameObject.CompareTag ("END")) {
             //when the player runs into an enemy reduce the players health
             Scene scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene("Floor1");
