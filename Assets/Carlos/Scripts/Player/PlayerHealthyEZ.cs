@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
-public class PlayerHealthy : MonoBehaviour {
+public class PlayerHealthyEZ : MonoBehaviour {
 
 	// Use this for initialization
-	public int health = 3;
+	public int health = 5;
  
 	void Start () {
 		PlayerPrefs.SetInt("Health", health);

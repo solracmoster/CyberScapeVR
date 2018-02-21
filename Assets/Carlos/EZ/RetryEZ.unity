@@ -575,6 +575,7 @@ GameObject:
   - component: {fileID: 253011290}
   - component: {fileID: 253011289}
   - component: {fileID: 253011288}
+  - component: {fileID: 253011292}
   m_Layer: 0
   m_Name: Tower (9)
   m_TagString: Untagged
@@ -648,6 +649,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &253011292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 253011287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46ddc85343034b84fb7cf7c49fd06148, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &313922467
 GameObject:
   m_ObjectHideFlags: 0
@@ -2917,7 +2929,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1903857740}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d311de982682124992190a3f4d82332, type: 3}
+  m_Script: {fileID: 11500000, guid: c316437a10efb3d4fb5d00822bbbda65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1967129991
@@ -3639,7 +3651,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4185488844855020, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -23.7
+      value: -18.08
       objectReference: {fileID: 0}
     - target: {fileID: 4185488844855020, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
       propertyPath: m_LocalPosition.y

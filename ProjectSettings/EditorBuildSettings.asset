@@ -12,14 +12,23 @@ EditorBuildSettings:
     path: Assets/Carlos/Tutorial.unity
     guid: 3fa195ed035d90c4f86c2abd5a87e697
   - enabled: 1
-    path: Assets/Carlos/Level 1/Floor1.unity
+    path: Assets/Carlos/Level 1N/Floor1.unity
     guid: ef2fe6fb9b26771458bc47b6f5d24464
   - enabled: 1
-    path: Assets/Carlos/Level 1/Retry1.unity
+    path: Assets/Carlos/Level 1N/Retry1.unity
     guid: 871e9a14941cd1e4498fd2ba38844e3e
   - enabled: 1
-    path: Assets/Carlos/Level 1/Fend1.unity
+    path: Assets/Carlos/Level 1N/Fend1.unity
     guid: 6bd464ae4eae4464ba27f2027756ac9a
   - enabled: 1
     path: Assets/Carlos/Title.unity
     guid: 6e16d09e1aeff78488b508eb1fc4ecc1
+  - enabled: 1
+    path: Assets/Carlos/EZ/Floorez.unity
+    guid: 6e154eb7c713b3a4596d0418fb201540
+  - enabled: 1
+    path: Assets/Carlos/EZ/RetryEZ.unity
+    guid: 755ea6591a2377242b1179fb59d3d51e
+  - enabled: 1
+    path: Assets/Carlos/EZ/FendEZ.unity
+    guid: 289f02c54f9ca1d4ea48d63641a15a14
