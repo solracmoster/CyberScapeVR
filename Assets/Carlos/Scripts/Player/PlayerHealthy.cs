@@ -20,7 +20,7 @@ public class PlayerHealthy : MonoBehaviour {
         {
             //reload the scene
             Scene scene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene("Floor1");
+            SceneManager.LoadScene("Retry1");
 
         }
 
