@@ -50,7 +50,7 @@ public class PlayerHealthyEZ : MonoBehaviour {
         if (other.gameObject.CompareTag("HP"))
         {
             PlayerPrefs.SetInt("Health", PlayerPrefs.GetInt("Health") + 1);
-            //Soundmanagerscript.PlaySound("Hurt");
+            Soundmanagerscript.PlaySound("HP");
         }
     }
 

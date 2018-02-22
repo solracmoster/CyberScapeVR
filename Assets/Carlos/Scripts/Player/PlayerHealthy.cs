@@ -5,11 +5,11 @@ public class PlayerHealthy : MonoBehaviour {
 
 	// Use this for initialization
 	public int health = 3;
- 
+     
 	void Start () {
 		PlayerPrefs.SetInt("Health", health);
-       
-	}
+        
+    }
     
 
     // Update is called once per frame
@@ -26,7 +26,7 @@ public class PlayerHealthy : MonoBehaviour {
 
        
     }
-
+    
 
 			void OnCollisionEnter (Collision collision)
 	{
@@ -50,7 +50,7 @@ public class PlayerHealthy : MonoBehaviour {
         if (other.gameObject.CompareTag("HP"))
         {
             PlayerPrefs.SetInt("Health", PlayerPrefs.GetInt("Health") + 1);
-            //Soundmanagerscript.PlaySound("Hurt");
+            Soundmanagerscript.PlaySound("HP");
         }
     }
 
