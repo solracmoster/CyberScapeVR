@@ -34,6 +34,7 @@ public class EnemyChase1 : MonoBehaviour
             //Move the enemy towards the player with smoothdamp
             transform.position = Vector3.SmoothDamp(transform.position, player.position, ref smoothVelocity, smoothTime);
             GetComponent<Animation>().Play("Sphere.001|Sphere.001Action");
+            
         }
     }
 

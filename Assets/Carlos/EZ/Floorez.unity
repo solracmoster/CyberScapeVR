@@ -1083,8 +1083,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 43929361}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 161.2, y: 34.067448, z: 5.199997}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 866681182}
   - {fileID: 2066114525}
@@ -1094,8 +1094,8 @@ Transform:
   - {fileID: 111743914}
   - {fileID: 1459751969}
   - {fileID: 138293492}
-  m_Father: {fileID: 1466122722}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &43929363
 SphereCollider:
@@ -2686,8 +2686,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 156832335}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 113.31, y: 31.12, z: -188}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 66600402}
   - {fileID: 1370807976}
@@ -2697,8 +2697,8 @@ Transform:
   - {fileID: 587259582}
   - {fileID: 1306152378}
   - {fileID: 1790518969}
-  m_Father: {fileID: 1567914328}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &156832337
 SphereCollider:
@@ -4679,35 +4679,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 253043796}
   m_Mesh: {fileID: 4300008, guid: 9172543ddd8b5384da17dd0f1a07ee1a, type: 3}
---- !u!1 &258747250
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 258747251}
-  m_Layer: 0
-  m_Name: GVirus
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &258747251
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 258747250}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 68.9, y: 31.12, z: -192.6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1061306190}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &262975961
 GameObject:
   m_ObjectHideFlags: 0
@@ -4781,35 +4752,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 262975961}
   m_Mesh: {fileID: 4300006, guid: f8e2e32932202694f84ac67425158624, type: 3}
---- !u!1 &263804765
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 263804766}
-  m_Layer: 0
-  m_Name: PVirus (6)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &263804766
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 263804765}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 81.95, y: 58.38, z: 148.88998}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 455664643}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 24
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &265856038
 GameObject:
   m_ObjectHideFlags: 0
@@ -5632,8 +5574,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 329167182}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 113.3, y: 34.067448, z: 85}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 2041005047}
   - {fileID: 1593804357}
@@ -5643,8 +5585,8 @@ Transform:
   - {fileID: 393791595}
   - {fileID: 2119291601}
   - {fileID: 507347724}
-  m_Father: {fileID: 890175726}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &329167184
 SphereCollider:
@@ -5715,35 +5657,6 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!1 &329512886
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 329512887}
-  m_Layer: 0
-  m_Name: PVirus (7)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &329512887
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 329512886}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 48.95, y: 61.96, z: 154.76999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 760059890}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 25
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &331151942
 GameObject:
   m_ObjectHideFlags: 0
@@ -17638,8 +17551,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 396240605}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 124.7, y: 34.067448, z: 18.700005}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 1221282894}
   - {fileID: 368115406}
@@ -17649,8 +17562,8 @@ Transform:
   - {fileID: 418390095}
   - {fileID: 1759911045}
   - {fileID: 523486295}
-  m_Father: {fileID: 1094256692}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &396240607
 SphereCollider:
@@ -18597,8 +18510,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 455664642}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 81.95, y: 58.38, z: 148.88998}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 1083378270}
   - {fileID: 871114268}
@@ -18608,8 +18521,8 @@ Transform:
   - {fileID: 963280978}
   - {fileID: 2027512485}
   - {fileID: 2071230554}
-  m_Father: {fileID: 263804766}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &455664644
 SphereCollider:
@@ -18994,35 +18907,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 469978669}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &471059840
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 471059841}
-  m_Layer: 0
-  m_Name: BVirus (3)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &471059841
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 471059840}
-  m_LocalRotation: {x: -0, y: -0.91778934, z: -0, w: 0.39706787}
-  m_LocalPosition: {x: -45.659996, y: 31.07, z: -120.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1476834904}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: -133.21, z: 0}
 --- !u!1 &476713823
 GameObject:
   m_ObjectHideFlags: 0
@@ -31783,35 +31667,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 653435640}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &654489856
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 654489857}
-  m_Layer: 0
-  m_Name: PVirus (8)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &654489857
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 654489856}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 58.77, y: 66.82, z: 184.60999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 967419797}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 26
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &654813525
 GameObject:
   m_ObjectHideFlags: 0
@@ -32221,35 +32076,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 39
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &676153790
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 676153791}
-  m_Layer: 0
-  m_Name: YVirus (14)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &676153791
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 676153790}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 161.4, y: 34.067448, z: 89.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1198582227}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &677684090
 GameObject:
@@ -32916,35 +32742,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 713145996}
   m_Mesh: {fileID: 4300000, guid: 5cb21f2f67700fe4b96cc000b2d4bd90, type: 3}
---- !u!1 &714817740
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 714817741}
-  m_Layer: 0
-  m_Name: YVirus (5)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &714817741
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 714817740}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 188.41, y: 34.067448, z: -30.629997}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1807972161}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &715352031
 GameObject:
   m_ObjectHideFlags: 0
@@ -33186,35 +32983,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 723286490}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &724585557
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 724585558}
-  m_Layer: 0
-  m_Name: PVirus
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &724585558
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 724585557}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 64.56, y: 34.067448, z: -21.169998}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1748641997}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &729659472
 GameObject:
   m_ObjectHideFlags: 0
@@ -37619,8 +37387,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 760059889}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 48.95, y: 61.96, z: 154.76999}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 477359033}
   - {fileID: 535755306}
@@ -37630,8 +37398,8 @@ Transform:
   - {fileID: 1560667242}
   - {fileID: 694445015}
   - {fileID: 1074337503}
-  m_Father: {fileID: 329512887}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &760059891
 SphereCollider:
@@ -39055,8 +38823,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 809158114}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 82.3, y: 34.067448, z: -77.44}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 1267948925}
   - {fileID: 692822147}
@@ -39066,8 +38834,8 @@ Transform:
   - {fileID: 1983324641}
   - {fileID: 1046463768}
   - {fileID: 1736086915}
-  m_Father: {fileID: 866731637}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &809158116
 SphereCollider:
@@ -43813,35 +43581,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 866681181}
   m_Mesh: {fileID: 4300000, guid: 9172543ddd8b5384da17dd0f1a07ee1a, type: 3}
---- !u!1 &866731636
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 866731637}
-  m_Layer: 0
-  m_Name: YVirus
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &866731637
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 866731636}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 82.3, y: 34.067448, z: -77.44}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 809158115}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &871114267
 GameObject:
   m_ObjectHideFlags: 0
@@ -44073,8 +43812,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 884107462}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 150.7, y: 34.067448, z: 51}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 493835221}
   - {fileID: 901602358}
@@ -44084,8 +43823,8 @@ Transform:
   - {fileID: 1956580067}
   - {fileID: 1280855941}
   - {fileID: 338864251}
-  m_Father: {fileID: 1097941308}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &884107464
 SphereCollider:
@@ -44240,35 +43979,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 887170672}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &890175725
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 890175726}
-  m_Layer: 0
-  m_Name: YVirus (15)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &890175726
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 890175725}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 113.3, y: 34.067448, z: 85}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 329167183}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &895225477
 GameObject:
   m_ObjectHideFlags: 0
@@ -44818,8 +44528,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 927384275}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 55.61, y: 34.067448, z: -0.010002136}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 958258282}
   - {fileID: 781903963}
@@ -44829,8 +44539,8 @@ Transform:
   - {fileID: 405228171}
   - {fileID: 1616620380}
   - {fileID: 1403293649}
-  m_Father: {fileID: 1734284769}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &927384277
 SphereCollider:
@@ -45534,8 +45244,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 965372513}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 183.20001, y: 34.067448, z: 72.9}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 154046397}
   - {fileID: 2122402197}
@@ -45545,8 +45255,8 @@ Transform:
   - {fileID: 157353709}
   - {fileID: 164165655}
   - {fileID: 1445284809}
-  m_Father: {fileID: 1973930595}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &965372515
 SphereCollider:
@@ -45644,8 +45354,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 967419796}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 58.77, y: 66.82, z: 184.60999}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 843807217}
   - {fileID: 2131955706}
@@ -45655,8 +45365,8 @@ Transform:
   - {fileID: 843818179}
   - {fileID: 142818394}
   - {fileID: 183050099}
-  m_Father: {fileID: 654489857}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &967419798
 SphereCollider:
@@ -49535,8 +49245,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 978362550}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 172, y: 34.067448, z: 58.299995}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 729659473}
   - {fileID: 930129973}
@@ -49546,8 +49256,8 @@ Transform:
   - {fileID: 1208390633}
   - {fileID: 1230475340}
   - {fileID: 520026474}
-  m_Father: {fileID: 1585113747}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &978362552
 SphereCollider:
@@ -50643,35 +50353,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1046463767}
   m_Mesh: {fileID: 4300002, guid: 9172543ddd8b5384da17dd0f1a07ee1a, type: 3}
---- !u!1 &1047315324
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1047315325}
-  m_Layer: 0
-  m_Name: YVirus (4)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1047315325
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1047315324}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 149.68, y: 34.067448, z: -52.47}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1667237927}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1051798818
 GameObject:
   m_ObjectHideFlags: 0
@@ -54294,8 +53975,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1061306189}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 68.9, y: 31.12, z: -192.6}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 1960941253}
   - {fileID: 588132437}
@@ -54305,8 +53986,8 @@ Transform:
   - {fileID: 1883812081}
   - {fileID: 372994561}
   - {fileID: 1200795444}
-  m_Father: {fileID: 258747251}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &1061306191
 SphereCollider:
@@ -58359,35 +58040,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1083378269}
   m_Mesh: {fileID: 4300000, guid: 9172543ddd8b5384da17dd0f1a07ee1a, type: 3}
---- !u!1 &1094256691
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1094256692}
-  m_Layer: 0
-  m_Name: YVirus (9)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1094256692
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1094256691}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 124.7, y: 34.067448, z: 18.7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 396240606}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1096239527
 GameObject:
   m_ObjectHideFlags: 0
@@ -58530,35 +58182,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1097576189}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1097941307
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1097941308}
-  m_Layer: 0
-  m_Name: YVirus (17)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1097941308
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1097941307}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 150.7, y: 34.067448, z: 51}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 884107463}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1099040200
 GameObject:
   m_ObjectHideFlags: 0
@@ -58789,35 +58412,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1103615480}
   m_Mesh: {fileID: 4300000, guid: a7ed0bc8b1ba5e3409e7c2d7cdfa09c5, type: 3}
---- !u!1 &1116787797
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1116787798}
-  m_Layer: 0
-  m_Name: YVirus (13)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1116787798
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1116787797}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 173.1, y: 34.067448, z: 88.799995}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1272544790}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1118643581
 GameObject:
   m_ObjectHideFlags: 0
@@ -58980,35 +58574,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1120028735}
   m_Mesh: {fileID: 4300004, guid: 9172543ddd8b5384da17dd0f1a07ee1a, type: 3}
---- !u!1 &1124324604
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1124324605}
-  m_Layer: 0
-  m_Name: BVirus (4)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1124324605
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1124324604}
-  m_LocalRotation: {x: -0, y: 0.5188479, z: -0, w: 0.8548666}
-  m_LocalPosition: {x: 6.667656, y: 31.07, z: 5.6292877}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1914668247}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 62.51, z: 0}
 --- !u!1 &1127335063
 GameObject:
   m_ObjectHideFlags: 0
@@ -59769,8 +59334,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1191366422}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 109.6, y: 34.067448, z: -18.200005}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 1670880923}
   - {fileID: 1546745951}
@@ -59780,8 +59345,8 @@ Transform:
   - {fileID: 377710815}
   - {fileID: 2083576924}
   - {fileID: 18800812}
-  m_Father: {fileID: 1595556039}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &1191366424
 SphereCollider:
@@ -59952,8 +59517,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1198582226}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 161.4, y: 34.067448, z: 89.9}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 9724096}
   - {fileID: 458208961}
@@ -59963,8 +59528,8 @@ Transform:
   - {fileID: 854190940}
   - {fileID: 1411064920}
   - {fileID: 400588207}
-  m_Father: {fileID: 676153791}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &1198582228
 SphereCollider:
@@ -60035,35 +59600,6 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!1 &1199047110
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1199047111}
-  m_Layer: 0
-  m_Name: BVirus (2)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1199047111
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1199047110}
-  m_LocalRotation: {x: -0, y: 0.5188479, z: -0, w: 0.8548666}
-  m_LocalPosition: {x: -48.629997, y: 31.07, z: -54.1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1810019213}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 62.51, z: 0}
 --- !u!1 &1200596939
 GameObject:
   m_ObjectHideFlags: 0
@@ -60697,35 +60233,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1215903529}
   m_Mesh: {fileID: 4300010, guid: 9172543ddd8b5384da17dd0f1a07ee1a, type: 3}
---- !u!1 &1218908668
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1218908669}
-  m_Layer: 0
-  m_Name: YVirus (6)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1218908669
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1218908668}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 194.3, y: 34.067448, z: -17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1958710766}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1221282893
 GameObject:
   m_ObjectHideFlags: 0
@@ -62210,8 +61717,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1272544789}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 173.1, y: 34.067448, z: 88.799995}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 195724050}
   - {fileID: 55766634}
@@ -62221,8 +61728,8 @@ Transform:
   - {fileID: 765348156}
   - {fileID: 1835008829}
   - {fileID: 1322386370}
-  m_Father: {fileID: 1116787798}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &1272544791
 SphereCollider:
@@ -67198,35 +66705,6 @@ Transform:
   m_Father: {fileID: 1723193386}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1355640210
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1355640211}
-  m_Layer: 0
-  m_Name: DBVirus
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1355640211
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1355640210}
-  m_LocalRotation: {x: -0, y: 0.5188479, z: -0, w: 0.8548666}
-  m_LocalPosition: {x: 111.16, y: 31.07, z: -105.77}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2018757756}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 27
-  m_LocalEulerAnglesHint: {x: 0, y: 62.51, z: 0}
 --- !u!1 &1370807975
 GameObject:
   m_ObjectHideFlags: 0
@@ -67722,6 +67200,10 @@ Prefab:
       propertyPath: resetTrackerOnLoad
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2015248, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 2}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 2}
   m_IsPrefabParent: 0
@@ -67741,7 +67223,7 @@ Camera:
   m_GameObject: {fileID: 1389160504}
   m_Enabled: 0
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -67777,7 +67259,7 @@ Camera:
   m_GameObject: {fileID: 1389160505}
   m_Enabled: 0
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -79243,35 +78725,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1459751968}
   m_Mesh: {fileID: 4300002, guid: 9172543ddd8b5384da17dd0f1a07ee1a, type: 3}
---- !u!1 &1466122721
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1466122722}
-  m_Layer: 0
-  m_Name: YVirus (10)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1466122722
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1466122721}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 161.2, y: 34.067448, z: 5.199997}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 43929362}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1466531613
 GameObject:
   m_ObjectHideFlags: 0
@@ -79345,35 +78798,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1466531613}
   m_Mesh: {fileID: 4300012, guid: 9172543ddd8b5384da17dd0f1a07ee1a, type: 3}
---- !u!1 &1469473651
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1469473652}
-  m_Layer: 0
-  m_Name: PVirus (5)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1469473652
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1469473651}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 63.1, y: 52.36, z: 116.4}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2144981438}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 23
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1472160047
 GameObject:
   m_ObjectHideFlags: 0
@@ -79630,9 +79054,9 @@ Transform:
   m_PrefabParentObject: {fileID: 400020, guid: 9172543ddd8b5384da17dd0f1a07ee1a, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1476834903}
-  m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalRotation: {x: -0, y: -0.67905724, z: -0, w: -0.73408544}
+  m_LocalPosition: {x: -45.659996, y: 31.07, z: -120.5}
+  m_LocalScale: {x: 1.3000011, y: 1.3, z: 1.3000011}
   m_Children:
   - {fileID: 1303793637}
   - {fileID: 2146480538}
@@ -79642,8 +79066,8 @@ Transform:
   - {fileID: 698142628}
   - {fileID: 1746297733}
   - {fileID: 717411769}
-  m_Father: {fileID: 471059841}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &1476834905
 SphereCollider:
@@ -81705,35 +81129,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1564230838}
   m_Mesh: {fileID: 4300012, guid: 9172543ddd8b5384da17dd0f1a07ee1a, type: 3}
---- !u!1 &1567914327
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1567914328}
-  m_Layer: 0
-  m_Name: GVirus (1)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1567914328
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1567914327}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 113.31, y: 31.12, z: -188}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 156832336}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1568710983
 GameObject:
   m_ObjectHideFlags: 0
@@ -82362,35 +81757,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1581499627}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1585113746
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1585113747}
-  m_Layer: 0
-  m_Name: YVirus (19)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1585113747
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1585113746}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 172, y: 34.067448, z: 58.299995}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 978362551}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 19
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1588174559
 GameObject:
   m_ObjectHideFlags: 0
@@ -82724,35 +82090,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1594081353}
   m_Mesh: {fileID: 4300000, guid: a7ed0bc8b1ba5e3409e7c2d7cdfa09c5, type: 3}
---- !u!1 &1595556038
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1595556039}
-  m_Layer: 0
-  m_Name: YVirus (11)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1595556039
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1595556038}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 109.6, y: 34.067448, z: -18.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1191366423}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1608030428
 GameObject:
   m_ObjectHideFlags: 0
@@ -83755,8 +83092,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1667237926}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 149.68, y: 34.067448, z: -52.47}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 1142972888}
   - {fileID: 1073449263}
@@ -83766,8 +83103,8 @@ Transform:
   - {fileID: 1610035532}
   - {fileID: 805186180}
   - {fileID: 28652148}
-  m_Father: {fileID: 1047315325}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &1667237928
 SphereCollider:
@@ -91932,35 +91269,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1732954295}
   m_Mesh: {fileID: 4300004, guid: 9172543ddd8b5384da17dd0f1a07ee1a, type: 3}
---- !u!1 &1734284768
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1734284769}
-  m_Layer: 0
-  m_Name: PVirus (1)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1734284769
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1734284768}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 55.61, y: 34.067448, z: -0.010002136}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 927384276}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 21
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1736086914
 GameObject:
   m_ObjectHideFlags: 0
@@ -92150,8 +91458,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1748641995}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 64.56, y: 34.067448, z: -21.169998}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 1280615192}
   - {fileID: 554192363}
@@ -92161,8 +91469,8 @@ Transform:
   - {fileID: 1072199874}
   - {fileID: 1520253488}
   - {fileID: 1751121924}
-  m_Father: {fileID: 724585558}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!114 &1748641998
 MonoBehaviour:
@@ -93351,8 +92659,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1807972160}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 188.41, y: 34.067448, z: -30.629997}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 1875391916}
   - {fileID: 596710031}
@@ -93362,8 +92670,8 @@ Transform:
   - {fileID: 767222348}
   - {fileID: 627229680}
   - {fileID: 1051798819}
-  m_Father: {fileID: 714817741}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &1807972162
 SphereCollider:
@@ -93460,9 +92768,9 @@ Transform:
   m_PrefabParentObject: {fileID: 400020, guid: 9172543ddd8b5384da17dd0f1a07ee1a, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1810019212}
-  m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalRotation: {x: -0, y: -0.6343257, z: -0, w: 0.77306587}
+  m_LocalPosition: {x: -48.629997, y: 31.07, z: -54.1}
+  m_LocalScale: {x: 1.3000005, y: 1.3, z: 1.3000005}
   m_Children:
   - {fileID: 1099763983}
   - {fileID: 986819623}
@@ -93472,8 +92780,8 @@ Transform:
   - {fileID: 1571161259}
   - {fileID: 1406029154}
   - {fileID: 265856039}
-  m_Father: {fileID: 1199047111}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &1810019214
 SphereCollider:
@@ -97250,35 +96558,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1820639233}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1822538285
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1822538286}
-  m_Layer: 0
-  m_Name: YVirus (1)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1822538286
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1822538285}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 105.9, y: 34.067448, z: -77.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2057176853}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1825385800
 GameObject:
   m_ObjectHideFlags: 0
@@ -101726,8 +101005,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1862284929}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 122.94, y: 31.12, z: -158.31}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 1070793461}
   - {fileID: 1837019029}
@@ -101737,8 +101016,8 @@ Transform:
   - {fileID: 1971040992}
   - {fileID: 1296647920}
   - {fileID: 734306687}
-  m_Father: {fileID: 1914910056}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &1862284931
 SphereCollider:
@@ -101955,35 +101234,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1867709145}
   m_Mesh: {fileID: 4300000, guid: a7ed0bc8b1ba5e3409e7c2d7cdfa09c5, type: 3}
---- !u!1 &1869666120
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1869666121}
-  m_Layer: 0
-  m_Name: PVirus (3)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1869666121
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1869666120}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 69.92, y: 39.72, z: 71.82}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2113198233}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 22
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1873057791
 GameObject:
   m_ObjectHideFlags: 0
@@ -102781,9 +102031,9 @@ Transform:
   m_PrefabParentObject: {fileID: 400020, guid: 9172543ddd8b5384da17dd0f1a07ee1a, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1914668246}
-  m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalRotation: {x: -0, y: -0.6343257, z: -0, w: 0.77306587}
+  m_LocalPosition: {x: 6.667656, y: 31.07, z: 5.6292877}
+  m_LocalScale: {x: 1.3000005, y: 1.3, z: 1.3000005}
   m_Children:
   - {fileID: 1986179079}
   - {fileID: 1244649138}
@@ -102793,7 +102043,7 @@ Transform:
   - {fileID: 939304596}
   - {fileID: 783376602}
   - {fileID: 1141561253}
-  m_Father: {fileID: 1124324605}
+  m_Father: {fileID: 2129267193}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!114 &1914668248
@@ -102865,35 +102115,6 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!1 &1914910055
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1914910056}
-  m_Layer: 0
-  m_Name: GVirus (2)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1914910056
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1914910055}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 122.94, y: 31.12, z: -158.31}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1862284930}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1917825642
 GameObject:
   m_ObjectHideFlags: 0
@@ -110447,8 +109668,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1958710765}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 194.30002, y: 34.067448, z: -17}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 818246075}
   - {fileID: 319597984}
@@ -110458,8 +109679,8 @@ Transform:
   - {fileID: 1372516028}
   - {fileID: 1266500323}
   - {fileID: 655309019}
-  m_Father: {fileID: 1218908669}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &1958710767
 SphereCollider:
@@ -114391,35 +113612,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1971040991}
   m_Mesh: {fileID: 4300010, guid: 9172543ddd8b5384da17dd0f1a07ee1a, type: 3}
---- !u!1 &1973930594
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1973930595}
-  m_Layer: 0
-  m_Name: YVirus (12)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1973930595
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1973930594}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 183.20001, y: 34.067448, z: 72.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 965372514}
-  m_Father: {fileID: 2129267193}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1978235391
 GameObject:
   m_ObjectHideFlags: 0
@@ -114979,9 +114171,9 @@ Transform:
   m_PrefabParentObject: {fileID: 400020, guid: 9172543ddd8b5384da17dd0f1a07ee1a, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018757755}
-  m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalRotation: {x: -0, y: -0.6343257, z: -0, w: 0.77306587}
+  m_LocalPosition: {x: 111.16, y: 31.07, z: -105.77}
+  m_LocalScale: {x: 1.3000005, y: 1.3, z: 1.3000005}
   m_Children:
   - {fileID: 1243750620}
   - {fileID: 275694214}
@@ -114991,8 +114183,8 @@ Transform:
   - {fileID: 770962372}
   - {fileID: 1660641504}
   - {fileID: 1805818339}
-  m_Father: {fileID: 1355640211}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &2018757757
 SphereCollider:
@@ -122712,8 +121904,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2057176852}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 105.9, y: 34.067448, z: -77.9}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 967734078}
   - {fileID: 487696960}
@@ -122723,8 +121915,8 @@ Transform:
   - {fileID: 435181850}
   - {fileID: 1233582005}
   - {fileID: 144366708}
-  m_Father: {fileID: 1822538286}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &2057176854
 SphereCollider:
@@ -127320,8 +126512,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2113198232}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 69.92, y: 39.72, z: 71.82}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 1629192112}
   - {fileID: 425781931}
@@ -127331,8 +126523,8 @@ Transform:
   - {fileID: 1215903530}
   - {fileID: 508721652}
   - {fileID: 1875521017}
-  m_Father: {fileID: 1869666121}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &2113198234
 SphereCollider:
@@ -127915,34 +127107,34 @@ Transform:
   m_LocalPosition: {x: -48.167656, y: -28.457447, z: 94.77071}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1124324605}
-  - {fileID: 1199047111}
-  - {fileID: 471059841}
-  - {fileID: 258747251}
-  - {fileID: 1567914328}
-  - {fileID: 1914910056}
-  - {fileID: 866731637}
-  - {fileID: 1822538286}
-  - {fileID: 1047315325}
-  - {fileID: 714817741}
-  - {fileID: 1218908669}
-  - {fileID: 1094256692}
-  - {fileID: 1466122722}
-  - {fileID: 1595556039}
-  - {fileID: 1973930595}
-  - {fileID: 1116787798}
-  - {fileID: 676153791}
-  - {fileID: 890175726}
-  - {fileID: 1097941308}
-  - {fileID: 1585113747}
-  - {fileID: 724585558}
-  - {fileID: 1734284769}
-  - {fileID: 1869666121}
-  - {fileID: 1469473652}
-  - {fileID: 263804766}
-  - {fileID: 329512887}
-  - {fileID: 654489857}
-  - {fileID: 1355640211}
+  - {fileID: 1914668247}
+  - {fileID: 1810019213}
+  - {fileID: 1476834904}
+  - {fileID: 1061306190}
+  - {fileID: 1862284930}
+  - {fileID: 156832336}
+  - {fileID: 2057176853}
+  - {fileID: 809158115}
+  - {fileID: 1667237927}
+  - {fileID: 1807972161}
+  - {fileID: 1958710766}
+  - {fileID: 396240606}
+  - {fileID: 43929362}
+  - {fileID: 1191366423}
+  - {fileID: 965372514}
+  - {fileID: 1272544790}
+  - {fileID: 1198582227}
+  - {fileID: 329167183}
+  - {fileID: 884107463}
+  - {fileID: 978362551}
+  - {fileID: 1748641997}
+  - {fileID: 927384276}
+  - {fileID: 2113198233}
+  - {fileID: 2144981438}
+  - {fileID: 455664643}
+  - {fileID: 760059890}
+  - {fileID: 967419797}
+  - {fileID: 2018757756}
   m_Father: {fileID: 0}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -131955,8 +131147,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2144981437}
   m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalPosition: {x: 63.1, y: 52.36, z: 116.4}
+  m_LocalScale: {x: 1.3000009, y: 1.3, z: 1.3000009}
   m_Children:
   - {fileID: 2105312484}
   - {fileID: 25350477}
@@ -131966,8 +131158,8 @@ Transform:
   - {fileID: 1501212678}
   - {fileID: 95308871}
   - {fileID: 1572303952}
-  m_Father: {fileID: 1469473652}
-  m_RootOrder: 0
+  m_Father: {fileID: 2129267193}
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!135 &2144981439
 SphereCollider:
