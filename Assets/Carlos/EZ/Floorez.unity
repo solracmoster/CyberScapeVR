@@ -112,7 +112,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 7541563ac1e1ee74e8536aca9016a690, type: 2}
 --- !u!1 &9724095
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,7 +390,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 21
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &21758829
 MeshRenderer:
@@ -675,6 +675,7 @@ GameObject:
   - component: {fileID: 35992161}
   - component: {fileID: 35992160}
   - component: {fileID: 35992159}
+  - component: {fileID: 35992163}
   m_Layer: 0
   m_Name: Capsule (20)
   m_TagString: Untagged
@@ -747,8 +748,23 @@ Transform:
   m_LocalScale: {x: 9, y: 9, z: 9}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 58
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &35992163
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 35992158}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &36675237
 GameObject:
   m_ObjectHideFlags: 0
@@ -778,7 +794,7 @@ Transform:
   m_LocalScale: {x: 2.40617, y: 31.28168, z: 37.64998}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 59
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &36675239
 MeshRenderer:
@@ -862,7 +878,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 27
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &38515100
 MeshRenderer:
@@ -928,6 +944,7 @@ GameObject:
   - component: {fileID: 39580348}
   - component: {fileID: 39580347}
   - component: {fileID: 39580346}
+  - component: {fileID: 39580350}
   m_Layer: 0
   m_Name: Capsule (3)
   m_TagString: Untagged
@@ -1000,8 +1017,23 @@ Transform:
   m_LocalScale: {x: 12, y: 12, z: 12}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &39580350
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 39580345}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &42599766 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 168962, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 2}
@@ -1069,6 +1101,7 @@ GameObject:
   - component: {fileID: 43929364}
   - component: {fileID: 43929363}
   - component: {fileID: 43929365}
+  - component: {fileID: 43929368}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -1166,6 +1199,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &43929368
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 43929361}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &55766633
 GameObject:
   m_ObjectHideFlags: 0
@@ -1414,7 +1468,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 69
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &71016516
 MeshRenderer:
@@ -1683,7 +1737,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 15
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &107090923
 MeshRenderer:
@@ -2132,7 +2186,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 8
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &131807151
 MeshRenderer:
@@ -2672,6 +2726,7 @@ GameObject:
   - component: {fileID: 156832338}
   - component: {fileID: 156832337}
   - component: {fileID: 156832339}
+  - component: {fileID: 156832342}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -2769,6 +2824,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &156832342
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 156832335}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &157353708
 GameObject:
   m_ObjectHideFlags: 0
@@ -3685,7 +3761,7 @@ Transform:
   m_LocalScale: {x: 2.4061704, y: 31.28168, z: -32.19807}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 48
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &198889277
 MeshRenderer:
@@ -4043,6 +4119,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 212904691}
+  - component: {fileID: 212904692}
   m_Layer: 0
   m_Name: Wals
   m_TagString: Untagged
@@ -4097,8 +4174,23 @@ Transform:
   - {fileID: 606300846}
   - {fileID: 206659342}
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &212904692
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 212904690}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &220229015
 GameObject:
   m_ObjectHideFlags: 0
@@ -4405,7 +4497,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 16
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &229850409
 MeshRenderer:
@@ -5560,6 +5652,7 @@ GameObject:
   - component: {fileID: 329167185}
   - component: {fileID: 329167184}
   - component: {fileID: 329167186}
+  - component: {fileID: 329167189}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -5657,6 +5750,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &329167189
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 329167182}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &331151942
 GameObject:
   m_ObjectHideFlags: 0
@@ -5936,7 +6050,7 @@ Transform:
   m_LocalScale: {x: 11.575918, y: 21.7, z: 15.072904}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 59
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &338864250
 GameObject:
@@ -6186,7 +6300,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 23
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &345790549
 MeshRenderer:
@@ -17312,7 +17426,7 @@ Transform:
   m_LocalScale: {x: 2.4061723, y: 21.041431, z: 18.616257}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 62
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &388988607
 MeshRenderer:
@@ -17537,6 +17651,7 @@ GameObject:
   - component: {fileID: 396240608}
   - component: {fileID: 396240607}
   - component: {fileID: 396240609}
+  - component: {fileID: 396240612}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -17634,6 +17749,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &396240612
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 396240605}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &400588206
 GameObject:
   m_ObjectHideFlags: 0
@@ -18015,7 +18151,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &424678717
 Transform:
@@ -18023,12 +18159,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 424678716}
-  m_LocalRotation: {x: -0.16633858, y: 0, z: 0, w: 0.9860688}
-  m_LocalPosition: {x: -14.58, y: 68.131, z: 49.716}
-  m_LocalScale: {x: 7.9, y: 10.302191, z: 31.320015}
+  m_LocalRotation: {x: -0.16633858, y: -0, z: 0, w: 0.9860688}
+  m_LocalPosition: {x: -98.02734, y: -0.6532898, z: 68.49986}
+  m_LocalScale: {x: 7.9, y: 10.302191, z: 31.320013}
   m_Children: []
-  m_Father: {fileID: 2086119329}
-  m_RootOrder: 4
+  m_Father: {fileID: 0}
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: -19.15, y: 0, z: 0}
 --- !u!23 &424678718
 MeshRenderer:
@@ -18240,6 +18376,7 @@ GameObject:
   - component: {fileID: 443346030}
   - component: {fileID: 443346029}
   - component: {fileID: 443346028}
+  - component: {fileID: 443346032}
   m_Layer: 0
   m_Name: Capsule (14)
   m_TagString: Untagged
@@ -18312,8 +18449,23 @@ Transform:
   m_LocalScale: {x: 9, y: 9, z: 9}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 52
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &443346032
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443346027}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &453754597
 GameObject:
   m_ObjectHideFlags: 0
@@ -18409,6 +18561,7 @@ GameObject:
   - component: {fileID: 454634765}
   - component: {fileID: 454634764}
   - component: {fileID: 454634763}
+  - component: {fileID: 454634767}
   m_Layer: 0
   m_Name: Capsule (4)
   m_TagString: Untagged
@@ -18481,8 +18634,23 @@ Transform:
   m_LocalScale: {x: 12, y: 12, z: 12}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 42
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &454634767
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 454634762}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &455664642
 GameObject:
   m_ObjectHideFlags: 0
@@ -18496,6 +18664,7 @@ GameObject:
   - component: {fileID: 455664645}
   - component: {fileID: 455664644}
   - component: {fileID: 455664646}
+  - component: {fileID: 455664649}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -18593,6 +18762,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &455664649
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 455664642}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &458208960
 GameObject:
   m_ObjectHideFlags: 0
@@ -18768,7 +18958,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 19
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &464657679
 MeshRenderer:
@@ -23081,7 +23271,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 28
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &519351289
 MeshRenderer:
@@ -26888,6 +27078,7 @@ GameObject:
   - component: {fileID: 556943117}
   - component: {fileID: 556943116}
   - component: {fileID: 556943115}
+  - component: {fileID: 556943119}
   m_Layer: 0
   m_Name: Capsule (6)
   m_TagString: Untagged
@@ -26960,8 +27151,23 @@ Transform:
   m_LocalScale: {x: 12, y: 12, z: 12}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 44
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &556943119
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 556943114}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &573657323
 GameObject:
   m_ObjectHideFlags: 0
@@ -27354,7 +27560,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &599385755
 MeshRenderer:
@@ -27420,7 +27626,7 @@ Transform:
   m_LocalScale: {x: 10.938574, y: 5.9269123, z: 17.91734}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 18.4, y: 90, z: 0}
 --- !u!1 &606300845
 GameObject:
@@ -27535,7 +27741,7 @@ Transform:
   m_LocalScale: {x: 2.40617, y: 31.28168, z: 37.64998}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 55
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &613726489
 MeshRenderer:
@@ -31382,7 +31588,7 @@ Transform:
   m_LocalScale: {x: 24.015549, y: 31.281689, z: 2.5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 53
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &643991741
 MeshRenderer:
@@ -31696,7 +31902,7 @@ Transform:
   m_LocalScale: {x: 69.54837, y: 31.281683, z: 2.5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 38
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &654813527
 MeshRenderer:
@@ -31853,7 +32059,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 70
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &659554699
 MeshRenderer:
@@ -31937,7 +32143,7 @@ Transform:
   m_LocalScale: {x: 2.40617, y: 31.28168, z: 37.64998}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 52
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &666878307
 MeshRenderer:
@@ -32003,6 +32209,7 @@ GameObject:
   - component: {fileID: 672425555}
   - component: {fileID: 672425554}
   - component: {fileID: 672425553}
+  - component: {fileID: 672425557}
   m_Layer: 0
   m_Name: Capsule (1)
   m_TagString: Untagged
@@ -32075,8 +32282,23 @@ Transform:
   m_LocalScale: {x: 12, y: 12, z: 12}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &672425557
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 672425552}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &677684090
 GameObject:
   m_ObjectHideFlags: 0
@@ -32106,7 +32328,7 @@ Transform:
   m_LocalScale: {x: 2.4061701, y: 31.28168, z: 37.649975}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 47
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &677684092
 MeshRenderer:
@@ -32190,7 +32412,7 @@ Transform:
   m_LocalScale: {x: 24.45001, y: 39.195118, z: 11.793719}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 13
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &686238486
 MeshRenderer:
@@ -32274,7 +32496,7 @@ Transform:
   m_LocalScale: {x: 24.732313, y: 31.281689, z: 2.5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 39
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &689158904
 MeshRenderer:
@@ -37142,7 +37364,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 32
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &750500879
 MeshRenderer:
@@ -37373,6 +37595,7 @@ GameObject:
   - component: {fileID: 760059892}
   - component: {fileID: 760059891}
   - component: {fileID: 760059893}
+  - component: {fileID: 760059896}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -37470,6 +37693,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &760059896
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 760059889}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &765348155
 GameObject:
   m_ObjectHideFlags: 0
@@ -37784,6 +38028,7 @@ GameObject:
   - component: {fileID: 772272164}
   - component: {fileID: 772272163}
   - component: {fileID: 772272162}
+  - component: {fileID: 772272166}
   m_Layer: 0
   m_Name: Capsule (10)
   m_TagString: Untagged
@@ -37856,8 +38101,23 @@ Transform:
   m_LocalScale: {x: 12, y: 12, z: 12}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 48
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &772272166
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 772272161}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &773892589
 GameObject:
   m_ObjectHideFlags: 0
@@ -38809,6 +39069,7 @@ GameObject:
   - component: {fileID: 809158117}
   - component: {fileID: 809158116}
   - component: {fileID: 809158118}
+  - component: {fileID: 809158121}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -38906,6 +39167,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &809158121
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 809158114}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &813915739
 GameObject:
   m_ObjectHideFlags: 0
@@ -39001,6 +39283,7 @@ GameObject:
   - component: {fileID: 816132042}
   - component: {fileID: 816132041}
   - component: {fileID: 816132040}
+  - component: {fileID: 816132044}
   m_Layer: 0
   m_Name: Capsule (7)
   m_TagString: Untagged
@@ -39073,8 +39356,23 @@ Transform:
   m_LocalScale: {x: 12, y: 12, z: 12}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 45
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &816132044
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 816132039}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &818246074
 GameObject:
   m_ObjectHideFlags: 0
@@ -39323,7 +39621,7 @@ Transform:
   m_LocalScale: {x: 33.537357, y: 31.281689, z: 2.5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 45
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &825746513
 MeshRenderer:
@@ -39389,6 +39687,7 @@ GameObject:
   - component: {fileID: 828567538}
   - component: {fileID: 828567537}
   - component: {fileID: 828567536}
+  - component: {fileID: 828567540}
   m_Layer: 0
   m_Name: Capsule (2)
   m_TagString: Untagged
@@ -39461,8 +39760,23 @@ Transform:
   m_LocalScale: {x: 12, y: 12, z: 12}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &828567540
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 828567535}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &828776822
 GameObject:
   m_ObjectHideFlags: 0
@@ -43798,6 +44112,7 @@ GameObject:
   - component: {fileID: 884107465}
   - component: {fileID: 884107464}
   - component: {fileID: 884107466}
+  - component: {fileID: 884107469}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -43895,6 +44210,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &884107469
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 884107462}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &887170672
 GameObject:
   m_ObjectHideFlags: 0
@@ -43924,7 +44260,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 17
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &887170674
 MeshRenderer:
@@ -44446,7 +44782,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 73
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &925015390
 MeshRenderer:
@@ -44514,6 +44850,7 @@ GameObject:
   - component: {fileID: 927384278}
   - component: {fileID: 927384277}
   - component: {fileID: 927384279}
+  - component: {fileID: 927384282}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -44611,6 +44948,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &927384282
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 927384275}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &930129972
 GameObject:
   m_ObjectHideFlags: 0
@@ -45230,6 +45588,7 @@ GameObject:
   - component: {fileID: 965372516}
   - component: {fileID: 965372515}
   - component: {fileID: 965372517}
+  - component: {fileID: 965372520}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -45327,6 +45686,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &965372520
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 965372513}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &967419796
 GameObject:
   m_ObjectHideFlags: 0
@@ -45340,6 +45720,7 @@ GameObject:
   - component: {fileID: 967419799}
   - component: {fileID: 967419798}
   - component: {fileID: 967419800}
+  - component: {fileID: 967419803}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -45437,6 +45818,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &967419803
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 967419796}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &967734077
 GameObject:
   m_ObjectHideFlags: 0
@@ -45558,7 +45960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -45714,7 +46116,7 @@ Transform:
   m_LocalScale: {x: 59.268772, y: 31.281689, z: 2.5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 57
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &975733299
 MeshRenderer:
@@ -49231,6 +49633,7 @@ GameObject:
   - component: {fileID: 978362553}
   - component: {fileID: 978362552}
   - component: {fileID: 978362554}
+  - component: {fileID: 978362557}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -49328,6 +49731,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &978362557
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 978362550}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &983944332
 GameObject:
   m_ObjectHideFlags: 0
@@ -49903,7 +50327,7 @@ Transform:
   m_LocalScale: {x: 33.24181, y: 31.281687, z: 3.8900838}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 63
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1022054470
 MeshRenderer:
@@ -50194,7 +50618,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 60
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1037988467
 GameObject:
@@ -50225,7 +50649,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 30
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1037988469
 MeshRenderer:
@@ -53961,6 +54385,7 @@ GameObject:
   - component: {fileID: 1061306192}
   - component: {fileID: 1061306191}
   - component: {fileID: 1061306193}
+  - component: {fileID: 1061306196}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -54058,6 +54483,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &1061306196
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1061306189}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &1065824658
 GameObject:
   m_ObjectHideFlags: 0
@@ -54087,7 +54533,7 @@ Transform:
   m_LocalScale: {x: 2.40617, y: 31.68715, z: 29.205652}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 6
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1065824660
 MeshRenderer:
@@ -58096,7 +58542,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1097576189
 GameObject:
@@ -58114,7 +58560,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1097576190
 Transform:
@@ -58123,11 +58569,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1097576189}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.655, y: 58.15, z: 68.58}
+  m_LocalPosition: {x: -81.79234, y: -10.634285, z: 87.36386}
   m_LocalScale: {x: 40.360615, y: 39.983578, z: 11.600031}
   m_Children: []
-  m_Father: {fileID: 2086119329}
-  m_RootOrder: 1
+  m_Father: {fileID: 0}
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1097576191
 MeshRenderer:
@@ -58198,7 +58644,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1099040201
 Transform:
@@ -58206,12 +58652,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1099040200}
-  m_LocalRotation: {x: 0.16762908, y: 0, z: 0, w: 0.98585016}
-  m_LocalPosition: {x: 18.25, y: 78.16, z: 51.48}
-  m_LocalScale: {x: 7.2, y: 7.5, z: 27.6}
+  m_LocalRotation: {x: 0.16762908, y: -0, z: -0, w: 0.98585016}
+  m_LocalPosition: {x: -65.19734, y: 9.375717, z: 70.263855}
+  m_LocalScale: {x: 7.2, y: 7.5, z: 27.600004}
   m_Children: []
-  m_Father: {fileID: 2086119329}
-  m_RootOrder: 3
+  m_Father: {fileID: 0}
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 19.3, y: 0, z: 0}
 --- !u!23 &1099040202
 MeshRenderer:
@@ -58676,7 +59122,7 @@ Transform:
   m_LocalScale: {x: 7.896363, y: 31.28168, z: 43.385956}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 64
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1128220914
 MeshRenderer:
@@ -58742,6 +59188,7 @@ GameObject:
   - component: {fileID: 1137591983}
   - component: {fileID: 1137591982}
   - component: {fileID: 1137591981}
+  - component: {fileID: 1137591985}
   m_Layer: 0
   m_Name: Capsule (16)
   m_TagString: Untagged
@@ -58814,8 +59261,23 @@ Transform:
   m_LocalScale: {x: 9, y: 9, z: 9}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 54
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &1137591985
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1137591980}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1141561252
 GameObject:
   m_ObjectHideFlags: 0
@@ -59320,6 +59782,7 @@ GameObject:
   - component: {fileID: 1191366425}
   - component: {fileID: 1191366424}
   - component: {fileID: 1191366426}
+  - component: {fileID: 1191366429}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -59417,6 +59880,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &1191366429
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1191366422}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &1193858244
 GameObject:
   m_ObjectHideFlags: 0
@@ -59503,6 +59987,7 @@ GameObject:
   - component: {fileID: 1198582229}
   - component: {fileID: 1198582228}
   - component: {fileID: 1198582230}
+  - component: {fileID: 1198582233}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -59600,6 +60085,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &1198582233
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1198582226}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &1200596939
 GameObject:
   m_ObjectHideFlags: 0
@@ -59616,7 +60122,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1200596940
 Transform:
@@ -59625,11 +60131,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1200596939}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.06, y: 66.22, z: 22.59}
+  m_LocalPosition: {x: -65.387344, y: -2.5642853, z: 41.37386}
   m_LocalScale: {x: 12.260006, y: 40.0861, z: 34.199608}
   m_Children: []
-  m_Father: {fileID: 2086119329}
-  m_RootOrder: 2
+  m_Father: {fileID: 0}
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1200596941
 MeshRenderer:
@@ -60418,7 +60924,7 @@ Transform:
   - {fileID: 1752456455}
   - {fileID: 970241580}
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1233582004
 GameObject:
@@ -60504,6 +61010,7 @@ GameObject:
   - component: {fileID: 1235557925}
   - component: {fileID: 1235557924}
   - component: {fileID: 1235557923}
+  - component: {fileID: 1235557927}
   m_Layer: 0
   m_Name: Capsule (8)
   m_TagString: Untagged
@@ -60576,8 +61083,23 @@ Transform:
   m_LocalScale: {x: 12, y: 12, z: 12}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 46
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &1235557927
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1235557922}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1243750619
 GameObject:
   m_ObjectHideFlags: 0
@@ -60680,7 +61202,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 33
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1244421846
 MeshRenderer:
@@ -60837,7 +61359,7 @@ Transform:
   m_LocalScale: {x: 30, y: 30, z: 30}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 10
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1250069812
 MeshRenderer:
@@ -60921,7 +61443,7 @@ Transform:
   m_LocalScale: {x: 2.40617, y: 31.28168, z: 39.92333}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 41
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1251244760
 MeshRenderer:
@@ -61078,7 +61600,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 24
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1258612682
 MeshRenderer:
@@ -61162,7 +61684,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 36
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1260763800
 MeshRenderer:
@@ -61300,7 +61822,7 @@ Transform:
   m_LocalScale: {x: 42.8, y: 21.7, z: 27.66}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1263011410
 MonoBehaviour:
@@ -61579,7 +62101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -61703,6 +62225,7 @@ GameObject:
   - component: {fileID: 1272544792}
   - component: {fileID: 1272544791}
   - component: {fileID: 1272544793}
+  - component: {fileID: 1272544796}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -61800,6 +62323,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &1272544796
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1272544789}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &1275122734
 GameObject:
   m_ObjectHideFlags: 0
@@ -62181,7 +62725,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &1285028461
 MeshRenderer:
@@ -62247,7 +62791,7 @@ Transform:
   m_LocalScale: {x: 9.493257, y: 5.4398875, z: 18.304398}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 18.4, y: 180, z: 0}
 --- !u!1 &1286726529
 GameObject:
@@ -62331,7 +62875,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 150.80573, z: 18.048231}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1290107625
 GameObject:
@@ -66417,7 +66961,7 @@ Transform:
   m_LocalScale: {x: 2.4061723, y: 31.281677, z: 39.923332}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 37
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1319908779
 MeshRenderer:
@@ -66604,7 +67148,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 71
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1326355667
 MeshRenderer:
@@ -66935,6 +67479,7 @@ GameObject:
   - component: {fileID: 1383916305}
   - component: {fileID: 1383916304}
   - component: {fileID: 1383916303}
+  - component: {fileID: 1383916307}
   m_Layer: 0
   m_Name: Capsule (12)
   m_TagString: Untagged
@@ -67007,8 +67552,23 @@ Transform:
   m_LocalScale: {x: 9, y: 9, z: 9}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 50
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &1383916307
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1383916302}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1387768005
 GameObject:
   m_ObjectHideFlags: 0
@@ -67038,7 +67598,7 @@ Transform:
   m_LocalScale: {x: 23.878609, y: 31.281689, z: 2.5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 49
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1387768007
 MeshRenderer:
@@ -67316,7 +67876,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 22
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1392751878
 MeshRenderer:
@@ -77875,6 +78435,7 @@ GameObject:
   - component: {fileID: 1408586115}
   - component: {fileID: 1408586114}
   - component: {fileID: 1408586113}
+  - component: {fileID: 1408586117}
   m_Layer: 0
   m_Name: Capsule (11)
   m_TagString: Untagged
@@ -77947,8 +78508,23 @@ Transform:
   m_LocalScale: {x: 12, y: 12, z: 12}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 49
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &1408586117
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1408586112}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1411064919
 GameObject:
   m_ObjectHideFlags: 0
@@ -78281,7 +78857,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 18
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1431773420
 MeshRenderer:
@@ -78973,7 +79549,7 @@ Transform:
   m_LocalScale: {x: 6, y: 6, z: 6}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 67
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1474200606
 MeshRenderer:
@@ -79041,6 +79617,7 @@ GameObject:
   - component: {fileID: 1476834906}
   - component: {fileID: 1476834905}
   - component: {fileID: 1476834907}
+  - component: {fileID: 1476834910}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -79138,6 +79715,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &1476834910
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1476834903}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &1477159449
 GameObject:
   m_ObjectHideFlags: 0
@@ -79154,7 +79752,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1477159450
 Transform:
@@ -79162,12 +79760,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1477159449}
-  m_LocalRotation: {x: 0, y: 0, z: 0.2292004, w: 0.9733793}
-  m_LocalPosition: {x: -3.61, y: 69.325, z: 11.4}
+  m_LocalRotation: {x: -0, y: -0, z: 0.2292004, w: 0.9733793}
+  m_LocalPosition: {x: -87.05734, y: 0.54071045, z: 30.183859}
   m_LocalScale: {x: 43, y: 16.486683, z: 11.79372}
   m_Children: []
-  m_Father: {fileID: 2086119329}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 26.5}
 --- !u!23 &1477159451
 MeshRenderer:
@@ -79306,6 +79904,7 @@ GameObject:
   - component: {fileID: 1489713268}
   - component: {fileID: 1489713267}
   - component: {fileID: 1489713266}
+  - component: {fileID: 1489713270}
   m_Layer: 0
   m_Name: Capsule (15)
   m_TagString: Untagged
@@ -79378,8 +79977,23 @@ Transform:
   m_LocalScale: {x: 9, y: 9, z: 9}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 53
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &1489713270
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1489713265}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1492894500
 GameObject:
   m_ObjectHideFlags: 0
@@ -79409,7 +80023,7 @@ Transform:
   m_LocalScale: {x: 2.406174, y: 31.65243, z: 29.20567}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 5
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1492894502
 MeshRenderer:
@@ -79692,7 +80306,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 132.80247, z: 18.401924}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1507886640
 GameObject:
@@ -79885,7 +80499,7 @@ Transform:
   m_LocalScale: {x: 23.878609, y: 31.281689, z: 2.5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 56
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1513152068
 MeshRenderer:
@@ -80278,7 +80892,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 26
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1520680805
 MeshRenderer:
@@ -80362,7 +80976,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 72
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1527145248
 MeshRenderer:
@@ -80519,7 +81133,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 9
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1538044159
 MeshRenderer:
@@ -81001,7 +81615,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 74
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1562812933
 MeshRenderer:
@@ -81158,7 +81772,7 @@ Transform:
   m_LocalScale: {x: 2.40617, y: 31.281677, z: 29.205652}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 7
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1568710985
 MeshRenderer:
@@ -81461,7 +82075,7 @@ Transform:
   m_LocalScale: {x: 2.4061697, y: 31.28168, z: 77.363396}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 40
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1574636258
 MeshRenderer:
@@ -81545,7 +82159,7 @@ Transform:
   m_LocalScale: {x: 13.150314, y: 31.281689, z: 2.5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 61
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1575035027
 MeshRenderer:
@@ -81786,7 +82400,7 @@ Transform:
   m_LocalScale: {x: 27.69189, y: 31.281689, z: 2.5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 46
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1588174561
 MeshRenderer:
@@ -82101,6 +82715,7 @@ GameObject:
   - component: {fileID: 1608030431}
   - component: {fileID: 1608030430}
   - component: {fileID: 1608030429}
+  - component: {fileID: 1608030433}
   m_Layer: 0
   m_Name: Capsule (19)
   m_TagString: Untagged
@@ -82173,8 +82788,23 @@ Transform:
   m_LocalScale: {x: 9, y: 9, z: 9}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 57
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &1608030433
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1608030428}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1608096548
 GameObject:
   m_ObjectHideFlags: 0
@@ -82350,7 +82980,7 @@ Transform:
   m_LocalScale: {x: 2.4061697, y: 31.28168, z: 41.553795}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 50
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1612895020
 MeshRenderer:
@@ -82507,7 +83137,7 @@ Transform:
   m_LocalScale: {x: 30, y: 30, z: 30}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 14
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1619786317
 MeshRenderer:
@@ -82737,7 +83367,7 @@ Transform:
   m_LocalScale: {x: 2.4061697, y: 31.28168, z: 62.839417}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 43
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1631274951
 MeshRenderer:
@@ -82803,6 +83433,7 @@ GameObject:
   - component: {fileID: 1643405868}
   - component: {fileID: 1643405867}
   - component: {fileID: 1643405866}
+  - component: {fileID: 1643405870}
   m_Layer: 0
   m_Name: Capsule (18)
   m_TagString: Untagged
@@ -82875,8 +83506,23 @@ Transform:
   m_LocalScale: {x: 9, y: 9, z: 9}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 56
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &1643405870
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1643405865}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1660641503
 GameObject:
   m_ObjectHideFlags: 0
@@ -82991,6 +83637,7 @@ GameObject:
   - component: {fileID: 1664492261}
   - component: {fileID: 1664492260}
   - component: {fileID: 1664492259}
+  - component: {fileID: 1664492263}
   m_Layer: 0
   m_Name: Capsule (13)
   m_TagString: Untagged
@@ -83063,8 +83710,23 @@ Transform:
   m_LocalScale: {x: 9, y: 9, z: 9}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 51
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &1664492263
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1664492258}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1667237926
 GameObject:
   m_ObjectHideFlags: 0
@@ -83078,6 +83740,7 @@ GameObject:
   - component: {fileID: 1667237929}
   - component: {fileID: 1667237928}
   - component: {fileID: 1667237930}
+  - component: {fileID: 1667237933}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -83175,6 +83838,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &1667237933
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1667237926}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &1670880922
 GameObject:
   m_ObjectHideFlags: 0
@@ -83277,7 +83961,7 @@ Transform:
   m_LocalScale: {x: 2.406171, y: 31.281683, z: 11.819625}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 60
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1679854359
 MeshRenderer:
@@ -83537,7 +84221,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 34
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1694645922
 MeshRenderer:
@@ -83621,7 +84305,7 @@ Transform:
   m_LocalScale: {x: 22, y: 22, z: 22}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 12
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1696016276
 MeshRenderer:
@@ -91428,6 +92112,7 @@ GameObject:
   - component: {fileID: 1748642001}
   - component: {fileID: 1748642000}
   - component: {fileID: 1748641999}
+  - component: {fileID: 1748642002}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -91525,6 +92210,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!195 &1748642002
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1748641995}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &1750216250
 GameObject:
   m_ObjectHideFlags: 0
@@ -91536,6 +92242,7 @@ GameObject:
   - component: {fileID: 1750216253}
   - component: {fileID: 1750216252}
   - component: {fileID: 1750216251}
+  - component: {fileID: 1750216255}
   m_Layer: 0
   m_Name: Capsule (17)
   m_TagString: Untagged
@@ -91608,8 +92315,23 @@ Transform:
   m_LocalScale: {x: 9, y: 9, z: 9}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 55
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &1750216255
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1750216250}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1751121923
 GameObject:
   m_ObjectHideFlags: 0
@@ -92645,6 +93367,7 @@ GameObject:
   - component: {fileID: 1807972163}
   - component: {fileID: 1807972162}
   - component: {fileID: 1807972164}
+  - component: {fileID: 1807972167}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -92742,6 +93465,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &1807972167
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1807972160}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &1810019212
 GameObject:
   m_ObjectHideFlags: 0
@@ -92755,6 +93499,7 @@ GameObject:
   - component: {fileID: 1810019215}
   - component: {fileID: 1810019214}
   - component: {fileID: 1810019216}
+  - component: {fileID: 1810019219}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -92852,6 +93597,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &1810019219
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1810019212}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &1814070315
 GameObject:
   m_ObjectHideFlags: 0
@@ -92970,7 +93736,7 @@ Transform:
   m_LocalScale: {x: 2.40617, y: 31.28168, z: 39.92333}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 44
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1816745543
 MeshRenderer:
@@ -96503,7 +97269,7 @@ Transform:
   m_LocalScale: {x: 35.020283, y: 20.390951, z: 14.26915}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 65
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1820639235
 MeshRenderer:
@@ -96587,7 +97353,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 68
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1825385802
 MeshRenderer:
@@ -100536,7 +101302,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 20
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1838845487
 MeshRenderer:
@@ -100850,7 +101616,7 @@ Transform:
   m_LocalScale: {x: 41.234154, y: 31.281689, z: 2.5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 58
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1847186125
 MeshRenderer:
@@ -100991,6 +101757,7 @@ GameObject:
   - component: {fileID: 1862284932}
   - component: {fileID: 1862284931}
   - component: {fileID: 1862284933}
+  - component: {fileID: 1862284936}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -101088,6 +101855,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &1862284936
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1862284929}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &1863320379
 GameObject:
   m_ObjectHideFlags: 0
@@ -101297,7 +102085,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1875391915
 GameObject:
@@ -101620,7 +102408,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 25
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1880379696
 MeshRenderer:
@@ -101777,7 +102565,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 66
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1889901353
 MeshRenderer:
@@ -101848,7 +102636,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &1911815570
 MeshRenderer:
@@ -101914,7 +102702,7 @@ Transform:
   m_LocalScale: {x: 11.030223, y: 6.186296, z: 18.68981}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 18.4, y: -90, z: 0}
 --- !u!1 &1913540513
 GameObject:
@@ -102018,6 +102806,7 @@ GameObject:
   - component: {fileID: 1914668250}
   - component: {fileID: 1914668249}
   - component: {fileID: 1914668248}
+  - component: {fileID: 1914668253}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -102115,6 +102904,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &1914668253
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1914668246}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &1917825642
 GameObject:
   m_ObjectHideFlags: 0
@@ -105750,7 +106560,7 @@ Transform:
   m_LocalScale: {x: 11, y: 11, z: 11}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 11
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1923567255
 MeshRenderer:
@@ -109429,7 +110239,7 @@ Transform:
   m_LocalScale: {x: 25.531054, y: 31.281689, z: 2.5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 42
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1937138269
 MeshRenderer:
@@ -109654,6 +110464,7 @@ GameObject:
   - component: {fileID: 1958710768}
   - component: {fileID: 1958710767}
   - component: {fileID: 1958710769}
+  - component: {fileID: 1958710772}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -109751,6 +110562,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &1958710772
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1958710765}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &1960433118
 GameObject:
   m_ObjectHideFlags: 0
@@ -113471,7 +114303,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &1967573757
 MeshRenderer:
@@ -113537,7 +114369,7 @@ Transform:
   m_LocalScale: {x: 91.570045, y: 0.7799998, z: 225.32031}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 12.9, y: 180, z: 0}
 --- !u!1 &1971040991
 GameObject:
@@ -114090,7 +114922,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 31
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2018679195
 MeshRenderer:
@@ -114158,6 +114990,7 @@ GameObject:
   - component: {fileID: 2018757758}
   - component: {fileID: 2018757757}
   - component: {fileID: 2018757759}
+  - component: {fileID: 2018757762}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -114255,6 +115088,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &2018757762
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018757755}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &2025165373
 GameObject:
   m_ObjectHideFlags: 0
@@ -114598,7 +115452,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 29
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2031771891
 MeshRenderer:
@@ -121719,6 +122573,7 @@ GameObject:
   - component: {fileID: 2050453288}
   - component: {fileID: 2050453287}
   - component: {fileID: 2050453286}
+  - component: {fileID: 2050453290}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -121791,8 +122646,23 @@ Transform:
   m_LocalScale: {x: 12, y: 12, z: 12}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &2050453290
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2050453285}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &2054982520
 GameObject:
   m_ObjectHideFlags: 0
@@ -121822,7 +122692,7 @@ Transform:
   m_LocalScale: {x: 2.4061704, y: 31.28168, z: -46.299187}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 54
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2054982522
 MeshRenderer:
@@ -121890,6 +122760,7 @@ GameObject:
   - component: {fileID: 2057176855}
   - component: {fileID: 2057176854}
   - component: {fileID: 2057176856}
+  - component: {fileID: 2057176859}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -121987,6 +122858,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &2057176859
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2057176852}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &2058123379
 GameObject:
   m_ObjectHideFlags: 0
@@ -121998,6 +122890,7 @@ GameObject:
   - component: {fileID: 2058123382}
   - component: {fileID: 2058123381}
   - component: {fileID: 2058123380}
+  - component: {fileID: 2058123384}
   m_Layer: 0
   m_Name: Capsule (5)
   m_TagString: Untagged
@@ -122070,8 +122963,23 @@ Transform:
   m_LocalScale: {x: 12, y: 12, z: 12}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 43
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &2058123384
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2058123379}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &2060389660
 GameObject:
   m_ObjectHideFlags: 0
@@ -122234,7 +123142,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &2069538043
 MeshRenderer:
@@ -122586,7 +123494,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &2086119328
 GameObject:
@@ -122596,6 +123504,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2086119329}
+  - component: {fileID: 2086119330}
   m_Layer: 0
   m_Name: Obstacles
   m_TagString: Untagged
@@ -122613,11 +123522,6 @@ Transform:
   m_LocalPosition: {x: -83.44734, y: -68.78429, z: 18.78386}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1477159450}
-  - {fileID: 1097576190}
-  - {fileID: 1200596940}
-  - {fileID: 1099040201}
-  - {fileID: 424678717}
   - {fileID: 1492894501}
   - {fileID: 1065824659}
   - {fileID: 1568710984}
@@ -122689,8 +123593,23 @@ Transform:
   - {fileID: 925015389}
   - {fileID: 1562812932}
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &2086119330
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2086119328}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &2086662299
 GameObject:
   m_ObjectHideFlags: 0
@@ -126151,6 +127070,7 @@ GameObject:
   - component: {fileID: 2088035892}
   - component: {fileID: 2088035891}
   - component: {fileID: 2088035890}
+  - component: {fileID: 2088035894}
   m_Layer: 0
   m_Name: Capsule (9)
   m_TagString: Untagged
@@ -126223,8 +127143,23 @@ Transform:
   m_LocalScale: {x: 12, y: 12, z: 12}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 47
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &2088035894
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2088035889}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &2089193182
 GameObject:
   m_ObjectHideFlags: 0
@@ -126417,7 +127352,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &2112046246
 MeshRenderer:
@@ -126483,7 +127418,7 @@ Transform:
   m_LocalScale: {x: 9.55978, y: 6.936947, z: 18.800564}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 18.4, y: 0, z: 0}
 --- !u!1 &2113198232
 GameObject:
@@ -126498,6 +127433,7 @@ GameObject:
   - component: {fileID: 2113198235}
   - component: {fileID: 2113198234}
   - component: {fileID: 2113198236}
+  - component: {fileID: 2113198239}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -126595,6 +127531,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &2113198239
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2113198232}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &2119291600
 GameObject:
   m_ObjectHideFlags: 0
@@ -126943,7 +127900,7 @@ Transform:
   m_LocalScale: {x: 23.878609, y: 31.281689, z: 2.5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 51
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2124128460
 MeshRenderer:
@@ -127014,7 +127971,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &2126258227
 MeshRenderer:
@@ -127080,7 +128037,7 @@ Transform:
   m_LocalScale: {x: 9.62, y: 7.24395, z: 11.100006}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2129267192
 GameObject:
@@ -127136,7 +128093,7 @@ Transform:
   - {fileID: 967419797}
   - {fileID: 2018757756}
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2131955705
 GameObject:
@@ -131065,7 +132022,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 2086119329}
-  m_RootOrder: 35
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2144697616
 MeshRenderer:
@@ -131133,6 +132090,7 @@ GameObject:
   - component: {fileID: 2144981440}
   - component: {fileID: 2144981439}
   - component: {fileID: 2144981441}
+  - component: {fileID: 2144981444}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -131230,6 +132188,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &2144981444
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2144981437}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.76
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.8
+  m_BaseOffset: 0.83
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &2146480537
 GameObject:
   m_ObjectHideFlags: 0
