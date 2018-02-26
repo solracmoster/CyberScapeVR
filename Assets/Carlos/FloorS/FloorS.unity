@@ -534,7 +534,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &20191988
 Transform:
   m_ObjectHideFlags: 0
@@ -3403,7 +3403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &129832626
@@ -4011,7 +4011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &148980245
@@ -5760,7 +5760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &204237321
@@ -8741,7 +8741,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &301933609
 Transform:
   m_ObjectHideFlags: 0
@@ -13812,7 +13812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &386785577
@@ -13926,7 +13926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b86803beff80d144be3c230eab9570b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 8
   smoothTime: 2
 --- !u!114 &388015505
@@ -14102,7 +14102,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &390613952
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15621,7 +15621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &455664648
@@ -16965,7 +16965,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &500635410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17054,7 +17054,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &506410170
 Transform:
   m_ObjectHideFlags: 0
@@ -21560,7 +21560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &544357164
@@ -22384,7 +22384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &583065732
@@ -23302,7 +23302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &632247709
@@ -23580,7 +23580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &637760232
@@ -25345,7 +25345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &696367437
@@ -26485,7 +26485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &717946790
@@ -27148,7 +27148,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &736914818
 Transform:
   m_ObjectHideFlags: 0
@@ -27306,7 +27306,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &744626101
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27990,7 +27990,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &753660426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28227,7 +28227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &760059895
@@ -28359,7 +28359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &763159946
@@ -28805,7 +28805,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &773892590
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28901,7 +28901,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &775062062
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30313,7 +30313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &805708895
@@ -34900,7 +34900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &848987322
@@ -35102,10 +35102,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 5
---- !u!4 &856773154 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
-  m_PrefabInternal: {fileID: 1545544832}
 --- !u!1 &857985685
 GameObject:
   m_ObjectHideFlags: 0
@@ -35595,7 +35591,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &878970210
 Transform:
   m_ObjectHideFlags: 0
@@ -36584,7 +36580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &927384281
@@ -36789,7 +36785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &929189286
@@ -37151,7 +37147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &934660822
@@ -37356,7 +37352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &939274278
@@ -37645,7 +37641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &949109989
@@ -38530,7 +38526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &967419802
@@ -42425,7 +42421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &988221519
@@ -42555,7 +42551,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &994600020
 Transform:
   m_ObjectHideFlags: 0
@@ -43689,7 +43685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1061306195
@@ -43989,7 +43985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1069704448
@@ -44131,7 +44127,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1070902669
 Transform:
   m_ObjectHideFlags: 0
@@ -47812,7 +47808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1082097840
@@ -48163,7 +48159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1088656394
@@ -49473,7 +49469,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1160735675
 Transform:
   m_ObjectHideFlags: 0
@@ -49778,7 +49774,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1171620371
@@ -50140,7 +50136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1181025870
@@ -52034,7 +52030,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1240014785
 Transform:
   m_ObjectHideFlags: 0
@@ -52118,7 +52114,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &1240057020
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -52999,7 +52995,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1270069626
 Transform:
   m_ObjectHideFlags: 0
@@ -53156,7 +53152,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1270987142
 Transform:
   m_ObjectHideFlags: 0
@@ -55661,7 +55657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1380161680
@@ -55951,7 +55947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1384048910
@@ -56293,7 +56289,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 481164, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 2}
       propertyPath: m_RootOrder
@@ -56426,6 +56422,10 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!4 &1389160508 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 2}
+  m_PrefabInternal: {fileID: 1389160503}
 --- !u!1 &1392751876
 GameObject:
   m_ObjectHideFlags: 0
@@ -60752,7 +60752,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &1430847766
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -61224,7 +61224,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1440898846
 Transform:
   m_ObjectHideFlags: 0
@@ -61833,7 +61833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1462056821
@@ -61965,7 +61965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1468440972
@@ -62484,7 +62484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1476834909
@@ -62867,7 +62867,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &1492879387
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -63563,7 +63563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b86803beff80d144be3c230eab9570b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 8
   smoothTime: 2
 --- !u!114 &1511693527
@@ -63754,7 +63754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1513305976
@@ -63885,7 +63885,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1515238810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65181,7 +65181,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_TagString
@@ -65219,7 +65219,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1545931155
 Transform:
   m_ObjectHideFlags: 0
@@ -65451,7 +65451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1551709442
@@ -65665,7 +65665,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1563630316
 Transform:
   m_ObjectHideFlags: 0
@@ -65824,7 +65824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1568401117
@@ -67965,7 +67965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1638167758
@@ -69816,7 +69816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1736814623
@@ -71037,7 +71037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b86803beff80d144be3c230eab9570b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 8
   smoothTime: 2
 --- !u!114 &1790629981
@@ -71477,7 +71477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1810019218
@@ -76708,7 +76708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1875270159
@@ -77373,7 +77373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1901180831
@@ -77717,7 +77717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b86803beff80d144be3c230eab9570b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 8
   smoothTime: 2
 --- !u!114 &1913540518
@@ -77824,7 +77824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1914668252
@@ -85323,7 +85323,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1939682122
 Transform:
   m_ObjectHideFlags: 0
@@ -85482,7 +85482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1946442773
@@ -85539,7 +85539,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1951597025
 Transform:
   m_ObjectHideFlags: 0
@@ -85928,7 +85928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1965113194
@@ -86060,7 +86060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &1965681510
@@ -86896,7 +86896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &2014119198
@@ -87329,7 +87329,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2030861685
 Transform:
   m_ObjectHideFlags: 0
@@ -88190,7 +88190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &2057176858
@@ -92899,7 +92899,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &2099529176
@@ -93029,7 +93029,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2100081930
 Transform:
   m_ObjectHideFlags: 0
@@ -93437,7 +93437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &2107057155
@@ -93642,7 +93642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &2113198238
@@ -93829,7 +93829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b86803beff80d144be3c230eab9570b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 8
   smoothTime: 2
 --- !u!114 &2123572693
@@ -93861,7 +93861,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2123654386
 Transform:
   m_ObjectHideFlags: 0
@@ -94486,7 +94486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0639519ae016e498a13f5bd0d026bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 856773154}
+  player: {fileID: 1389160508}
   walkingDistance: 50
   smoothTime: 1
 --- !u!111 &2144981443
