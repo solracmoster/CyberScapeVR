@@ -5,10 +5,10 @@ public class PlayerHealthy : MonoBehaviour {
 
 	// Use this for initialization
 	public int health = 3;
-     
-	void Start () {
+    public int coin = 0;
+    void Start () {
 		PlayerPrefs.SetInt("Health", health);
-        
+        PlayerPrefs.SetInt("Coin", coin);
     }
     
 
@@ -50,6 +50,11 @@ public class PlayerHealthy : MonoBehaviour {
         if (other.gameObject.CompareTag("HP"))
         {
             PlayerPrefs.SetInt("Health", PlayerPrefs.GetInt("Health") + 1);
+            Soundmanagerscript.PlaySound("HP");
+        }
+        if (other.gameObject.CompareTag("Coin"))
+        {
+            PlayerPrefs.SetInt("Coin", PlayerPrefs.GetInt("Coin") + 1);
             Soundmanagerscript.PlaySound("HP");
         }
     }

@@ -112,7 +112,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: f7a08edae2dae8544a43195c69b059d2, type: 2}
 --- !u!1 &7859192
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,6 +291,7 @@ GameObject:
   - component: {fileID: 39727882}
   - component: {fileID: 39727881}
   - component: {fileID: 39727880}
+  - component: {fileID: 39727885}
   m_Layer: 0
   m_Name: VirusRwithanimation
   m_TagString: Enemy
@@ -304,9 +305,9 @@ Transform:
   m_PrefabParentObject: {fileID: 400020, guid: 9172543ddd8b5384da17dd0f1a07ee1a, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 39727878}
-  m_LocalRotation: {x: -0, y: -0.9433675, z: -0, w: 0.3317497}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalRotation: {x: -0, y: -0.6343257, z: -0, w: 0.77306587}
+  m_LocalPosition: {x: -56.3, y: 2.6125526, z: 59.1}
+  m_LocalScale: {x: 1.3000005, y: 1.3, z: 1.3000005}
   m_Children:
   - {fileID: 1456629143}
   - {fileID: 367742040}
@@ -316,8 +317,8 @@ Transform:
   - {fileID: 338907776}
   - {fileID: 443830014}
   - {fileID: 1724381928}
-  m_Father: {fileID: 1337207768}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: -141.25, z: 0}
 --- !u!114 &39727880
 MonoBehaviour:
@@ -388,6 +389,27 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!195 &39727885
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 39727878}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 2.67
+  m_Speed: 196.34
+  m_Acceleration: 776.2
+  avoidancePriority: 50
+  m_AngularSpeed: 119.12
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 3.27
+  m_BaseOffset: 1.01
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &42599766 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 168962, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 2}
@@ -2438,35 +2460,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
---- !u!1 &1337207767
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1337207768}
-  m_Layer: 0
-  m_Name: BVirus (4)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1337207768
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1337207767}
-  m_LocalRotation: {x: -0, y: 0.5188479, z: -0, w: 0.8548666}
-  m_LocalPosition: {x: -56.3, y: 2.6125526, z: 59.1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 39727879}
-  m_Father: {fileID: 0}
-  m_RootOrder: 39
-  m_LocalEulerAnglesHint: {x: 0, y: 62.51, z: 0}
 --- !u!1001 &1389160503
 Prefab:
   m_ObjectHideFlags: 0
@@ -2794,6 +2787,7 @@ GameObject:
   - component: {fileID: 1489761343}
   - component: {fileID: 1489761342}
   - component: {fileID: 1489761346}
+  - component: {fileID: 1489761347}
   m_Layer: 0
   m_Name: Tower (8)
   m_TagString: Untagged
@@ -2878,6 +2872,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd2a4bffc3e5ba44794c7db20f2c6c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!208 &1489761347
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1489761341}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1516707370
 GameObject:
   m_ObjectHideFlags: 0
@@ -3953,7 +3962,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &2069538043
 MeshRenderer:
@@ -4127,6 +4136,7 @@ GameObject:
   - component: {fileID: 2112046248}
   - component: {fileID: 2112046247}
   - component: {fileID: 2112046246}
+  - component: {fileID: 2112046250}
   m_Layer: 0
   m_Name: Tower (3)
   m_TagString: Untagged
@@ -4200,6 +4210,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 18.4, y: 0, z: 0}
+--- !u!208 &2112046250
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2112046245}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &2126258226
 GameObject:
   m_ObjectHideFlags: 0
@@ -4211,6 +4236,7 @@ GameObject:
   - component: {fileID: 2126258229}
   - component: {fileID: 2126258228}
   - component: {fileID: 2126258227}
+  - component: {fileID: 2126258231}
   m_Layer: 0
   m_Name: Tower
   m_TagString: Untagged
@@ -4284,6 +4310,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &2126258231
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2126258226}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &2147003521
 GameObject:
   m_ObjectHideFlags: 0

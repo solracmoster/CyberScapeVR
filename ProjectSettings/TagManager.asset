@@ -21,6 +21,7 @@ TagManager:
   - DoorG
   - Glove
   - HP
+  - Coin
   layers:
   - Default
   - TransparentFX
