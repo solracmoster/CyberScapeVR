@@ -14,7 +14,7 @@ public class REHealth : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(health <= 0) {
-         
+            Soundmanagerscript.PlaySound("EDie");
             Destroy(this.gameObject);
 
         }

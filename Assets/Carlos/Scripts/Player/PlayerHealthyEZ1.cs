@@ -22,7 +22,7 @@ public class PlayerHealthyEZ1 : MonoBehaviour {
         {
             //reload the scene
             Scene scene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene("Retry1");
+            SceneManager.LoadScene("RetryEZ2");
 
         }
 
@@ -59,6 +59,12 @@ public class PlayerHealthyEZ1 : MonoBehaviour {
         {
             PlayerPrefs.SetInt("Coin", PlayerPrefs.GetInt("Coin") + 1);
             Soundmanagerscript.PlaySound("HP");
+        }
+
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            PlayerPrefs.SetInt("Health", PlayerPrefs.GetInt("Health") - 1);
+            Soundmanagerscript.PlaySound("PHurt");
         }
     }
 
