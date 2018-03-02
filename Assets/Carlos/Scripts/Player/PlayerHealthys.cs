@@ -50,12 +50,12 @@ public class PlayerHealthys : MonoBehaviour {
         if (other.gameObject.CompareTag("HP"))
         {
             PlayerPrefs.SetInt("Health", PlayerPrefs.GetInt("Health") + 1);
-            Soundmanagerscript.PlaySound("HP");
+            Soundmanagerscript.PlaySound("NHP");
         }
         if (other.gameObject.CompareTag("Coin"))
         {
             PlayerPrefs.SetInt("Coin", PlayerPrefs.GetInt("Coin") + 1);
-            Soundmanagerscript.PlaySound("HP");
+            Soundmanagerscript.PlaySound("Coin");
         }
 
         if (other.gameObject.CompareTag("Enemy"))

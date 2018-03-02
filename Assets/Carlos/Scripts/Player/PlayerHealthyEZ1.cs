@@ -36,7 +36,7 @@ public class PlayerHealthyEZ1 : MonoBehaviour {
 
         if (collision.gameObject.tag == "Enemy") {
 			PlayerPrefs.SetInt ("Health", PlayerPrefs.GetInt ("Health") - 1);
-            Soundmanagerscript.PlaySound("PHurt");
+            Soundmanagerscript.PlaySound("NHurt");
         }
 
 		
@@ -52,19 +52,19 @@ public class PlayerHealthyEZ1 : MonoBehaviour {
         if (other.gameObject.CompareTag("HP"))
         {
             PlayerPrefs.SetInt("Health", PlayerPrefs.GetInt("Health") + 1);
-            Soundmanagerscript.PlaySound("HP");
+            Soundmanagerscript.PlaySound("NHP");
         }
 
         if (other.gameObject.CompareTag("Coin"))
         {
             PlayerPrefs.SetInt("Coin", PlayerPrefs.GetInt("Coin") + 1);
-            Soundmanagerscript.PlaySound("HP");
+            Soundmanagerscript.PlaySound("Coin");
         }
 
         if (other.gameObject.CompareTag("Enemy"))
         {
             PlayerPrefs.SetInt("Health", PlayerPrefs.GetInt("Health") - 1);
-            Soundmanagerscript.PlaySound("PHurt");
+            Soundmanagerscript.PlaySound("NHurt");
         }
     }
 
