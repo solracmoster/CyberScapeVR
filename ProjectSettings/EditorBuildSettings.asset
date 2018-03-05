@@ -50,3 +50,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Carlos/EZ2/FendEZ2.unity
     guid: 94fea1e342e29164d8f658df91d5ce93
+  - enabled: 1
+    path: Assets/Carlos/Level 2N/Floor2.unity
+    guid: 6c26af442fc017b4f8b210afc5c6f4d1
+  - enabled: 1
+    path: Assets/Carlos/Level 2N/Fend2.unity
+    guid: 48d8cbab50d87c341b9d59596dea10a3
+  - enabled: 1
+    path: Assets/Carlos/Level 2N/Retry2.unity
+    guid: 36482be1395a7e24fb55a1756f1e0831

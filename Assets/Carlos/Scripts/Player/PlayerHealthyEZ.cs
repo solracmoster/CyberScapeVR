@@ -34,7 +34,7 @@ public class PlayerHealthyEZ : MonoBehaviour {
 
         if (collision.gameObject.tag == "Enemy") {
 			PlayerPrefs.SetInt ("Health", PlayerPrefs.GetInt ("Health") - 1);
-            Soundmanagerscript.PlaySound("PHurt");
+            Soundmanagerscript.PlaySound("NHurt");
         }
 
 		
@@ -62,7 +62,7 @@ public class PlayerHealthyEZ : MonoBehaviour {
         if (other.gameObject.CompareTag("Enemy"))
         {
             PlayerPrefs.SetInt("Health", PlayerPrefs.GetInt("Health") - 1);
-            Soundmanagerscript.PlaySound("PHurt");
+            Soundmanagerscript.PlaySound("NHurt");
         }
     }
 
