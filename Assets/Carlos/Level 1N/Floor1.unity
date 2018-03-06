@@ -7749,6 +7749,7 @@ GameObject:
   - component: {fileID: 170882651}
   - component: {fileID: 170882655}
   - component: {fileID: 170882654}
+  - component: {fileID: 170882656}
   m_Layer: 0
   m_Name: LGlove
   m_TagString: Bat
@@ -7831,6 +7832,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &170882656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 170882650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9389a555ea1dc11459028c2398b54636, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
 --- !u!1 &172910572
 GameObject:
   m_ObjectHideFlags: 0
@@ -52403,6 +52416,7 @@ GameObject:
   - component: {fileID: 748350401}
   - component: {fileID: 748350400}
   - component: {fileID: 748350399}
+  - component: {fileID: 748350404}
   m_Layer: 0
   m_Name: RGlove
   m_TagString: Bat
@@ -52485,6 +52499,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &748350404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 748350398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9389a555ea1dc11459028c2398b54636, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
 --- !u!1 &748464057
 GameObject:
   m_ObjectHideFlags: 0
@@ -137803,6 +137829,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.19095598, y: 0.19095604, z: 1.2707944}
   m_Center: {x: -0.016159, y: 0.007262001, z: -1.3331155}
+--- !u!114 &1837562054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1837562050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7005f773e3afb0488b110c4b39af532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
 --- !u!1 &1838603979
 GameObject:
   m_ObjectHideFlags: 0

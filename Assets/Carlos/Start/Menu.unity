@@ -575,6 +575,7 @@ GameObject:
   - component: {fileID: 253011290}
   - component: {fileID: 253011289}
   - component: {fileID: 253011288}
+  - component: {fileID: 253011292}
   m_Layer: 0
   m_Name: Tower (9)
   m_TagString: Untagged
@@ -648,6 +649,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &253011292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 253011287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d4091434645c454d8d800a03faffed1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &313922467
 GameObject:
   m_ObjectHideFlags: 0
@@ -1358,6 +1370,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
+  coin: 0
 --- !u!1 &866374465 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 134650, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 2}
@@ -2018,6 +2031,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
+  coin: 0
 --- !u!1001 &1389160503
 Prefab:
   m_ObjectHideFlags: 0
@@ -3271,7 +3285,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2030861684}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.37, y: 21.267, z: 2.8}
+  m_LocalPosition: {x: -24.2, y: 21.267, z: 18.1}
   m_LocalScale: {x: 121.44345, y: 0.104637146, z: 151.5117}
   m_Children: []
   m_Father: {fileID: 212904691}

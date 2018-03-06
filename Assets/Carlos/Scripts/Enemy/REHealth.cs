@@ -27,7 +27,7 @@ public class REHealth : MonoBehaviour {
 		if (collision.gameObject.tag == "Bat"){
 			//when the player runs into an enemy reduce the players health
 			health--;
-            Soundmanagerscript.PlaySound("attack");
+            Soundmanagerscript.PlaySound("EHurt");
 
         }
 	}

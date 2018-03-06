@@ -1309,6 +1309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
+  coin: 0
 --- !u!1 &866374465 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 134650, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 2}
@@ -1969,6 +1970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
+  coin: 0
 --- !u!1001 &1389160503
 Prefab:
   m_ObjectHideFlags: 0
@@ -2929,7 +2931,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1903857740}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0e23066c40152247904509550fc86ee, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d4091434645c454d8d800a03faffed1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1967129991

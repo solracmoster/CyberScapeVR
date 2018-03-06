@@ -5,7 +5,7 @@ using UnityEngine;
 public class Soundmanagerscript : MonoBehaviour {
     // to add a sound put its name use a , after a sound to add another                                           //script set up with "shootp" so you can test if it works
     //ex: public st...shootpSound, JumpSound;
-    public static AudioClip shootpSound, PHurt, punch, attack, HP, EDie, Hit2, JumpN, Travel, Coin, NHP, NHurt;
+    public static AudioClip shootpSound, PHurt, punch, attack, HP, EDie, Hit2, JumpN, Travel, Coin, NHP, NHurt, EHurt;
 
     //don't touch
     static AudioSource audioSrc;
@@ -27,6 +27,7 @@ public class Soundmanagerscript : MonoBehaviour {
         Coin = Resources.Load<AudioClip>("Coin");
         NHP = Resources.Load<AudioClip>("NHP");
         NHurt = Resources.Load<AudioClip>("NHurt");
+        EHurt = Resources.Load<AudioClip>("EHurt");
 
         // don't touch
         audioSrc = GetComponent<AudioSource>();
@@ -121,6 +122,12 @@ public class Soundmanagerscript : MonoBehaviour {
         {
             case "NHurt":
                 audioSrc.PlayOneShot(NHurt);
+                break;
+        }
+        switch (clip)
+        {
+            case "EHurt":
+                audioSrc.PlayOneShot(EHurt);
                 break;
         }
         //  ex:           switch (clip)
