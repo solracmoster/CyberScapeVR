@@ -25,7 +25,7 @@ EditorBuildSettings:
     guid: 6e16d09e1aeff78488b508eb1fc4ecc1
   - enabled: 1
     path: Assets/Carlos/EZ/Floorez.unity
-    guid: 6e154eb7c713b3a4596d0418fb201540
+    guid: 5f4179d934c3fdf4f954d2bdcdca8e77
   - enabled: 1
     path: Assets/Carlos/EZ/RetryEZ.unity
     guid: 755ea6591a2377242b1179fb59d3d51e
