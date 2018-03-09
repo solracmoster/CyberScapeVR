@@ -22,6 +22,7 @@ TagManager:
   - Glove
   - HP
   - Coin
+  - KILL
   layers:
   - Default
   - TransparentFX
