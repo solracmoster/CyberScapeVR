@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 54236861725572444}
   - component: {fileID: 65841155281464128}
   - component: {fileID: 114464636251921022}
+  - component: {fileID: 114921839012103662}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -59,7 +60,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 4b32986c21ee123449c9c67c6e2d2d7e, type: 2}
+  - {fileID: 2100000, guid: e0bfb2a796f95834d9acf260f99920ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -146,3 +147,17 @@ MonoBehaviour:
   m_snapOrientation: 0
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
+--- !u!114 &114921839012103662
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1096241264526084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94c41b1d30172254bb7995e7d24382df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FadeDuration: 1
+  Color1: {r: 1, g: 1, b: 1, a: 1}
+  Color2: {r: 0, g: 0.66896534, b: 1, a: 1}

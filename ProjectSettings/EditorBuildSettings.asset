@@ -68,3 +68,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Carlos/FloorS2/FendS2.unity
     guid: bf560af8de9f5f24f9f2dd53a025a043
+  - enabled: 1
+    path: Assets/Carlos/EZ3/Floorez3.unity
+    guid: 17352c20df76a6947bea7a4998f3b6c7
+  - enabled: 1
+    path: Assets/Carlos/EZ3/RetryEZ3.unity
+    guid: 20f2019547673b54eb2911c29ff6ffb0
+  - enabled: 1
+    path: Assets/Carlos/EZ3/FendEZ3.unity
+    guid: 9d7a82c6af5d11241b44d4e8a64d7311

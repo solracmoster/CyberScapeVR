@@ -22,7 +22,7 @@ public class PlayerHealthyEZ2 : MonoBehaviour {
         {
             //reload the scene
             Scene scene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene("RetryEZ2");
+            SceneManager.LoadScene("RetryEZ3");
 
         }
 
