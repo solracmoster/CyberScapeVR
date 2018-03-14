@@ -89,3 +89,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Carlos/FloorS3/FloorS3.unity
     guid: a9b19196bf02489439661f32b342cc58
+  - enabled: 1
+    path: Assets/Carlos/FloorS3/RetryS3.unity
+    guid: 2475826dd535fe647b4160ac5aa60ab3
+  - enabled: 1
+    path: Assets/Carlos/FloorS3/FendS3.unity
+    guid: 127754e652afcdb4f825600f955301ea
