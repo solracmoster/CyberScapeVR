@@ -657,7 +657,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 253011287}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d4091434645c454d8d800a03faffed1, type: 3}
+  m_Script: {fileID: 11500000, guid: cd28d241bcc87af45856a549cbac791c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &313922467
@@ -2261,7 +2261,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4185488844855020, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.44
+      value: -4.6
       objectReference: {fileID: 0}
     - target: {fileID: 4185488844855020, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2298,7 +2298,7 @@ Prefab:
     - target: {fileID: 102811760515789668, guid: 240a00df0b01c3a459d16ee3d3ce45bd,
         type: 2}
       propertyPath: m_Text
-      value: Slayer
+      value: The Field
       objectReference: {fileID: 0}
     - target: {fileID: 23494920758304664, guid: 240a00df0b01c3a459d16ee3d3ce45bd,
         type: 2}
@@ -2407,7 +2407,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1489761341}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d311de982682124992190a3f4d82332, type: 3}
+  m_Script: {fileID: 11500000, guid: caca295fe244be143b82f7db7b1d383b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1516707370
@@ -2783,7 +2783,7 @@ Prefab:
     - target: {fileID: 102811760515789668, guid: 240a00df0b01c3a459d16ee3d3ce45bd,
         type: 2}
       propertyPath: m_Text
-      value: Normal
+      value: TEST 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
@@ -3127,7 +3127,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1903857740}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c316437a10efb3d4fb5d00822bbbda65, type: 3}
+  m_Script: {fileID: 11500000, guid: 7e6257e3d4fe3eb489ebc7294f5b700e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1967129991
@@ -3285,7 +3285,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2030861684}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -24.2, y: 21.267, z: 18.1}
+  m_LocalPosition: {x: -18.3, y: 21.267, z: 18.6}
   m_LocalScale: {x: 121.44345, y: 0.104637146, z: 151.5117}
   m_Children: []
   m_Father: {fileID: 212904691}
@@ -3849,7 +3849,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4185488844855020, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -69.39
+      value: -70.6
       objectReference: {fileID: 0}
     - target: {fileID: 4185488844855020, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
       propertyPath: m_LocalPosition.y
@@ -3886,7 +3886,7 @@ Prefab:
     - target: {fileID: 102811760515789668, guid: 240a00df0b01c3a459d16ee3d3ce45bd,
         type: 2}
       propertyPath: m_Text
-      value: Easy
+      value: Test 1
       objectReference: {fileID: 0}
     - target: {fileID: 102811760515789668, guid: 240a00df0b01c3a459d16ee3d3ce45bd,
         type: 2}
