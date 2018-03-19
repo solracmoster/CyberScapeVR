@@ -1682,6 +1682,69 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1158219757
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4185488844855020, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -55.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 4185488844855020, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 17.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 4185488844855020, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 47.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4185488844855020, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4185488844855020, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4185488844855020, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4185488844855020, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4185488844855020, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
+      propertyPath: m_RootOrder
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 102811760515789668, guid: 240a00df0b01c3a459d16ee3d3ce45bd,
+        type: 2}
+      propertyPath: m_Text
+      value: 'Rest assured I am having built a weapon
+
+        to end the war and your arch enemy once and for all'
+      objectReference: {fileID: 0}
+    - target: {fileID: 102811760515789668, guid: 240a00df0b01c3a459d16ee3d3ce45bd,
+        type: 2}
+      propertyPath: m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787958296628240, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
+      propertyPath: m_Name
+      value: 3dText (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 102811760515789668, guid: 240a00df0b01c3a459d16ee3d3ce45bd,
+        type: 2}
+      propertyPath: m_CharacterSize
+      value: 0.09
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1190518516
 Prefab:
   m_ObjectHideFlags: 0
@@ -2158,7 +2221,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4185488844855020, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -39.8
+      value: -46.43
       objectReference: {fileID: 0}
     - target: {fileID: 4185488844855020, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2191,7 +2254,9 @@ Prefab:
     - target: {fileID: 102811760515789668, guid: 240a00df0b01c3a459d16ee3d3ce45bd,
         type: 2}
       propertyPath: m_Text
-      value: "LEVEL \nCOMPLETE"
+      value: 'Another Decisive
+
+        Victory Captain'
       objectReference: {fileID: 0}
     - target: {fileID: 102811760515789668, guid: 240a00df0b01c3a459d16ee3d3ce45bd,
         type: 2}
@@ -2929,7 +2994,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1903857740}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1213e2db23e5c2248820ee38b5f1d02e, type: 3}
+  m_Script: {fileID: 11500000, guid: 2a70611d288ef174da128d1d63bf817f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1967129991

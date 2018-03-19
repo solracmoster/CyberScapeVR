@@ -122,3 +122,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Carlos/FloorS/Tmove7.unity
     guid: 4f015a88dbf888e4b90a47621c7d5760
+  - enabled: 1
+    path: Assets/Carlos/FloorS2/Tmove8.unity
+    guid: 3fae2edde0778ab42973ab05ba1db9f7
+  - enabled: 1
+    path: Assets/Carlos/FloorS3/Tmove9.unity
+    guid: f411cc2ae5a52ad4ca631a147f5270c6

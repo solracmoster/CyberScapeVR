@@ -2158,7 +2158,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4185488844855020, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -39.8
+      value: -60.26
       objectReference: {fileID: 0}
     - target: {fileID: 4185488844855020, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2191,7 +2191,9 @@ Prefab:
     - target: {fileID: 102811760515789668, guid: 240a00df0b01c3a459d16ee3d3ce45bd,
         type: 2}
       propertyPath: m_Text
-      value: "LEVEL \nCOMPLETE"
+      value: 'WE WILL MAKE
+
+        THEM GROVEL AT OUR FEET'
       objectReference: {fileID: 0}
     - target: {fileID: 102811760515789668, guid: 240a00df0b01c3a459d16ee3d3ce45bd,
         type: 2}
