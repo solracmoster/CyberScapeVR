@@ -128,3 +128,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Carlos/FloorS3/Tmove9.unity
     guid: f411cc2ae5a52ad4ca631a147f5270c6
+  - enabled: 1
+    path: Assets/Carlos/Finale 1/Finale.unity
+    guid: 8ca674b6a7adb2c4199d32b757923eab
+  - enabled: 1
+    path: Assets/Carlos/Finale 1/Tmove10.unity
+    guid: 76ed3c3b335247a4fbd7121934dde993
+  - enabled: 1
+    path: Assets/Carlos/Finale 1/RetryS4.unity
+    guid: 4b7eccc33d67b4141964978917934950
