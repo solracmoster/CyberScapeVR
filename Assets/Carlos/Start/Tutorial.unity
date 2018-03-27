@@ -1179,7 +1179,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4754861462342388, guid: 7ada79dedd2086b45abb0e248fe6f193, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -26.23
+      value: -27.18
       objectReference: {fileID: 0}
     - target: {fileID: 4754861462342388, guid: 7ada79dedd2086b45abb0e248fe6f193, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1360,11 +1360,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4754861462342388, guid: 7ada79dedd2086b45abb0e248fe6f193, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 6.38
+      value: 7.71
       objectReference: {fileID: 0}
     - target: {fileID: 4754861462342388, guid: 7ada79dedd2086b45abb0e248fe6f193, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 4.3
+      value: -1.56
       objectReference: {fileID: 0}
     - target: {fileID: 4754861462342388, guid: 7ada79dedd2086b45abb0e248fe6f193, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1394,7 +1394,9 @@ Prefab:
     - target: {fileID: 102443331849094076, guid: 7ada79dedd2086b45abb0e248fe6f193,
         type: 2}
       propertyPath: m_Text
-      value: hit to end the level
+      value: 'hit to end the level
+
+        (Some levels will require a key or item to end the level)'
       objectReference: {fileID: 0}
     - target: {fileID: 1021650630180802, guid: 7ada79dedd2086b45abb0e248fe6f193, type: 2}
       propertyPath: m_Name
@@ -1403,6 +1405,11 @@ Prefab:
     - target: {fileID: 4754861462342388, guid: 7ada79dedd2086b45abb0e248fe6f193, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 102443331849094076, guid: 7ada79dedd2086b45abb0e248fe6f193,
+        type: 2}
+      propertyPath: m_Alignment
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7ada79dedd2086b45abb0e248fe6f193, type: 2}
@@ -3926,7 +3933,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4105227413302030, guid: fa9fd39b9a32beb4ab3bb8b190df289a, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -27.840458
+      value: -28.89
       objectReference: {fileID: 0}
     - target: {fileID: 4105227413302030, guid: fa9fd39b9a32beb4ab3bb8b190df289a, type: 2}
       propertyPath: m_LocalPosition.y

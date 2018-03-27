@@ -1328,7 +1328,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4185488844855020, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -239.8
+      value: -258.6
       objectReference: {fileID: 0}
     - target: {fileID: 4185488844855020, guid: 240a00df0b01c3a459d16ee3d3ce45bd, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1363,7 +1363,7 @@ Prefab:
       propertyPath: m_Text
       value: 'SCENE 2
 
-        NEW DOG NEW TRICKS'
+        OLD DOG NEW TRICKS'
       objectReference: {fileID: 0}
     - target: {fileID: 102811760515789668, guid: 240a00df0b01c3a459d16ee3d3ce45bd,
         type: 2}
