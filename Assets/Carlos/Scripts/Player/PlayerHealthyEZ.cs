@@ -20,7 +20,7 @@ public class PlayerHealthyEZ : MonoBehaviour {
         {
             //reload the scene
             Scene scene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene("Retry1");
+            SceneManager.LoadScene("RetryEZ");
 
         }
 
