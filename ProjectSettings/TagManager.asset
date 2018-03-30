@@ -32,8 +32,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Player
+  - Weapon
   - 
   - 
   - 
@@ -59,4 +59,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Weapon
+    uniqueID: 3448641221
+    locked: 0
+  - name: Player
+    uniqueID: 35013505
     locked: 0
